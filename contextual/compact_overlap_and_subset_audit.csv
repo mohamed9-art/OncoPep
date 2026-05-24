@@ -1,0 +1,7 @@
+audit,count,status
+Overlap vs reference,0,pass
+Overlap vs templates,0,pass
+Overlap vs paper candidates,0,pass
+Shortlist ⊂ passed,0,pass
+Final ⊂ shortlist,0,pass
+Final ⊂ passed,0,pass
