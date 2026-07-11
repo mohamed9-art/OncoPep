@@ -4,7 +4,7 @@ OncoPep is a leakage-aware, property-conditioned generative framework for antica
 
 The framework was developed using a curated peptide corpus compiled from dbAMP 3.0/dbAMPseq, APD3, CancerPPD2, and DCTPep/cancer-therapy peptide resources. OncoPep combines similarity-aware train-validation-test partitioning, train-derived descriptor conditioning, frozen sequence preprocessing, conditional sequence generation, memorization-risk auditing, descriptor-support analysis, and multi-component candidate prioritization.
 
-This repository provides the processed data, source-data tables, configuration files, model code, benchmark outputs, candidate-prioritization files, and documentation required to reproduce the computational analyses reported in the associated OncoPep manuscript.
+This repository provides the processed data, figure-level source-data tables, configuration files, model code, benchmark outputs, candidate-prioritization files, and documentation required to reproduce the computational analyses reported in the associated OncoPep manuscript.
 
 ---
 
@@ -27,11 +27,15 @@ OncoPep/
 ├── environment.yml
 ├── configs/
 ├── data/
-├── source_data/
 ├── docs/
 ├── models/
 ├── results/
-├── final_candidates/
-├── figures/
-├── manifests/
+│   ├── audit/
+│   ├── benchmarking/
+│   ├── contextual/
+│   ├── generation/
+│   ├── prioritization/
+│   ├── source_data/
+│   │   └── all data/
+│   └── tables/
 └── src/
