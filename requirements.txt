@@ -5,7 +5,11 @@ scikit-learn
 matplotlib
 seaborn
 torch
-rdkit
 tqdm
 pyyaml
 joblib
+biopython
+openpyxl
+networkx
+jupyter
+ipykernel
