@@ -1,48 +1,37 @@
 # OncoPep
 
-OncoPep is a leakage-aware, property-conditional generative framework for ACP-oriented peptide chemical-space modeling and multi-objective candidate prioritization.
+OncoPep is a leakage-aware, property-conditioned generative framework for anticancer peptide-oriented sequence-space exploration and computational candidate prioritization.
 
-The framework was developed using a standardized peptide corpus compiled from dbAMPseq, APD3, CancerPPD2, and DCP. OncoPep uses similarity-aware train-validation-test partitioning, train-supported conditioning, frozen tokenization, conditional sequence generation, memorization auditing, and deterministic multi-objective prioritization.
+The framework was developed using a curated peptide corpus compiled from dbAMP 3.0/dbAMPseq, APD3, CancerPPD2, and DCTPep/cancer-therapy peptide resources. OncoPep combines similarity-aware train-validation-test partitioning, train-derived descriptor conditioning, frozen sequence preprocessing, conditional sequence generation, memorization-risk auditing, descriptor-support analysis, and multi-component candidate prioritization.
 
-## Repository contents
+This repository provides the processed data, source-data tables, configuration files, model code, benchmark outputs, candidate-prioritization files, and documentation required to reproduce the computational analyses reported in the associated OncoPep manuscript.
 
-- `data/`: processed corpus files and reserved folders for split, conditioning, and tokenization metadata.
-- `models/`: trained OncoPep and baseline model checkpoints.
-- `results/`: generated candidates, final candidate tables, contextual audit files, and supporting result tables.
-- `configs/`: configuration files for training, generation, and prioritization.
-- `src/`: source code for preprocessing, model training, generation, benchmarking, auditing, prioritization, and contextual analysis.
-- `docs/`: reproducibility notes and manuscript-related documentation.
+---
 
-## Important note
+## Important scientific note
 
-The final peptides reported in this repository are computationally prioritized candidates. They are not experimentally validated anticancer peptides. Experimental assays are required before any claim about anticancer activity, selectivity, toxicity, stability, or therapeutic relevance.
+The final OncoPep sequences are computationally prioritized candidates. They are not experimentally validated anticancer peptides.
 
-## Data sources
+No claim is made here regarding experimental anticancer activity, selectivity, toxicity, serum stability, protease resistance, biological mechanism, receptor binding, therapeutic efficacy, or clinical utility. Experimental validation is required before any biological or therapeutic conclusion can be made.
 
-Raw peptide records were compiled from publicly available resources, including dbAMPseq, APD3, CancerPPD2, and DCP. Raw database files are not redistributed here unless allowed by the original data-source terms. Processed and derived files are provided to support reproducibility of the OncoPep analyses.
+---
 
-## Model checkpoints
+## Repository structure
 
-The `models/` folder includes:
-
-- `cvae_conditional_seed*.pt`: OncoPep conditional CVAE checkpoints.
-- `gru_conditional_seed*.pt`: conditional GRU baseline checkpoints.
-- `gru_unconditional_seed*.pt`: unconditional GRU baseline checkpoints.
-- `vae_unconditional_seed*.pt`: unconditional VAE baseline checkpoints.
-
-## Data and code availability
-
-The OncoPep reproducibility package is available at:
-
-https://github.com/mohamed9-art/OncoPep
-
-The repository contains configuration files, model checkpoints, processed input data, generated candidate outputs, prioritization tables, contextual audit files, and documentation supporting the analyses reported in the manuscript.
-
-## Citation
-
-If you use this repository, please cite the associated OncoPep manuscript.
-
-## Contact
-
-Mohamed Aldaw  
-Center of Bioinformatics, College of Life Sciences, Northwest A&F University
+```text
+OncoPep/
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── requirements.txt
+├── environment.yml
+├── configs/
+├── data/
+├── source_data/
+├── docs/
+├── models/
+├── results/
+├── final_candidates/
+├── figures/
+├── manifests/
+└── src/
