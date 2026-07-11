@@ -1,4 +1,5 @@
 name: oncopep
+
 channels:
   - conda-forge
   - pytorch
@@ -7,18 +8,31 @@ channels:
 dependencies:
   - python=3.10
   - pip
+
+  # Core scientific computing
   - numpy
   - pandas
   - scipy
   - scikit-learn
+
+  # Visualization
   - matplotlib
   - seaborn
+
+  # Machine learning / deep learning
+  - pytorch
+
+  # Bioinformatics / cheminformatics
+  - biopython
+  - rdkit
+
+  # Utilities
   - jupyter
   - ipykernel
   - pyyaml
   - tqdm
   - networkx
-  - pytorch
+
+  # Optional pip-only dependencies
   - pip:
-      - biopython
-      - rdkit-pypi
+      - openpyxl
