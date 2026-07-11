@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated OncoPep manuscript and the archived release."
+type: software
+title: "OncoPep: reproducibility package for leakage-aware property-conditioned generation and prioritization of anticancer peptide-oriented sequences"
+authors:
+  - family-names: Aldaw
+    given-names: Mohamed
+    affiliation: "Center of Bioinformatics, College of Life Sciences, Northwest A&F University"
+version: 1.0.0
+date-released: 2026-07-11
+repository-code: "https://github.com/mohamed9-art/OncoPep"
+url: "https://github.com/mohamed9-art/OncoPep"
+keywords:
+  - anticancer peptides
+  - peptide generation
+  - conditional VAE
+  - generative model
+  - computational biology
+  - peptide bioinformatics
+  - candidate prioritization
+license: MIT
