@@ -1,0 +1,24 @@
+name: oncopep
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pyyaml
+  - tqdm
+  - networkx
+  - pytorch
+  - pip:
+      - biopython
+      - rdkit-pypi
