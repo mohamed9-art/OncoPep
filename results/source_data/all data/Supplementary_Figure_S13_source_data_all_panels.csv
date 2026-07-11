@@ -1,0 +1,21 @@
+source_table,scheme_a,scheme_b,jaccard_overlap,is_diagonal,is_missing,interpretation,scheme_recurrence_n,candidate_count,denominator_n,fraction,percent
+Supplementary_Figure_S13_panel_a,Primary,Primary,1.0,1.0,0.0,self-overlap,,,,,
+Supplementary_Figure_S13_panel_a,Novelty-weighted,Primary,0.6551724137931034,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Plausibility-weighted,Primary,0.6,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Diversity-weighted,Primary,0.5,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Primary,Novelty-weighted,0.6551724137931034,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Novelty-weighted,Novelty-weighted,1.0,1.0,0.0,self-overlap,,,,,
+Supplementary_Figure_S13_panel_a,Plausibility-weighted,Novelty-weighted,0.4117647058823529,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Diversity-weighted,Novelty-weighted,0.6551724137931034,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Primary,Plausibility-weighted,0.6,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Novelty-weighted,Plausibility-weighted,0.4117647058823529,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Plausibility-weighted,Plausibility-weighted,1.0,1.0,0.0,self-overlap,,,,,
+Supplementary_Figure_S13_panel_a,Diversity-weighted,Plausibility-weighted,0.2972972972972973,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Primary,Diversity-weighted,0.5,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Novelty-weighted,Diversity-weighted,0.6551724137931034,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Plausibility-weighted,Diversity-weighted,0.2972972972972973,0.0,0.0,off-diagonal robustness overlap,,,,,
+Supplementary_Figure_S13_panel_a,Diversity-weighted,Diversity-weighted,1.0,1.0,0.0,self-overlap,,,,,
+Supplementary_Figure_S13_panel_b,,,,,,,1.0,14.0,40.0,0.35,35.0
+Supplementary_Figure_S13_panel_b,,,,,,,2.0,7.0,40.0,0.175,17.5
+Supplementary_Figure_S13_panel_b,,,,,,,3.0,8.0,40.0,0.2,20.0
+Supplementary_Figure_S13_panel_b,,,,,,,4.0,11.0,40.0,0.275,27.500000000000004

@@ -1,0 +1,16 @@
+split,n_rows,n_unique_sequences,n_clusters,split_display,metric_name,metric_definition,units,panel,data_type,split_a,split_b,pair_display,n_sampled_pairs,max_jaccard,mean_jaccard,threshold,n_overlap,overlap_type,overlap_type_display
+train,24485.0,24485.0,24102.0,Train,n_unique_sequences,Number of unique peptide sequences assigned to each split.,unique sequences,A,split_unique_sequence_counts,,,,,,,,,,
+val,13260.0,13260.0,2592.0,Validation,n_unique_sequences,Number of unique peptide sequences assigned to each split.,unique sequences,A,split_unique_sequence_counts,,,,,,,,,,
+test,13260.0,13260.0,2337.0,Test,n_unique_sequences,Number of unique peptide sequences assigned to each split.,unique sequences,A,split_unique_sequence_counts,,,,,,,,,,
+,,,,,max_sampled_cross_split_3mer_jaccard,Maximum sampled cross-split 3-mer set Jaccard similarity for a split pair.,3-mer Jaccard similarity,B,sampled_cross_split_jaccard,train,val,Train–validation,3000.0,0.1707317073170731,0.0030037041678346,0.55,,,
+,,,,,max_sampled_cross_split_3mer_jaccard,Maximum sampled cross-split 3-mer set Jaccard similarity for a split pair.,3-mer Jaccard similarity,B,sampled_cross_split_jaccard,train,test,Train–test,3000.0,0.3,0.0029045694800606,0.55,,,
+,,,,,max_sampled_cross_split_3mer_jaccard,Maximum sampled cross-split 3-mer set Jaccard similarity for a split pair.,3-mer Jaccard similarity,B,sampled_cross_split_jaccard,val,test,Validation–test,3000.0,0.3018867924528302,0.0036302004261703,0.55,,,
+,,,,,exact_sequence_overlap,Number of identical peptide sequences shared between split pairs.,overlap count,C,overlap_audit,train,val,Train–validation,,,,,0.0,exact_sequence_overlap,Exact sequence
+,,,,,exact_sequence_overlap,Number of identical peptide sequences shared between split pairs.,overlap count,C,overlap_audit,train,test,Train–test,,,,,0.0,exact_sequence_overlap,Exact sequence
+,,,,,exact_sequence_overlap,Number of identical peptide sequences shared between split pairs.,overlap count,C,overlap_audit,val,test,Validation–test,,,,,0.0,exact_sequence_overlap,Exact sequence
+,,,,,cluster_overlap,Number of similarity clusters shared between split pairs.,overlap count,C,overlap_audit,train,val,Train–validation,,,,,0.0,cluster_overlap,Similarity cluster
+,,,,,cluster_overlap,Number of similarity clusters shared between split pairs.,overlap count,C,overlap_audit,train,test,Train–test,,,,,0.0,cluster_overlap,Similarity cluster
+,,,,,cluster_overlap,Number of similarity clusters shared between split pairs.,overlap count,C,overlap_audit,val,test,Validation–test,,,,,0.0,cluster_overlap,Similarity cluster
+train,,,24102.0,Train,n_clusters,Number of similarity-connected components assigned to each split.,similarity clusters,D,similarity_cluster_counts,,,,,,,,,,
+val,,,2592.0,Validation,n_clusters,Number of similarity-connected components assigned to each split.,similarity clusters,D,similarity_cluster_counts,,,,,,,,,,
+test,,,2337.0,Test,n_clusters,Number of similarity-connected components assigned to each split.,similarity clusters,D,similarity_cluster_counts,,,,,,,,,,
