@@ -1,0 +1,86 @@
+CITATION.cff
+configs/generation_config.yaml
+configs/prioritization_config.yaml
+configs/training_config.yaml
+data/conditioning/README.md
+data/processed/peponco_standardized_corpus.csv
+data/README.md
+data/splits/README.md
+data/tokenization/README.md
+docs/README.md
+environment.yml
+.gitignore
+LICENSE
+models/cvae_conditional_seed42.pt
+models/cvae_conditional_seed52.pt
+models/cvae_conditional_seed62.pt
+models/gru_conditional_seed42.pt
+models/gru_conditional_seed52.pt
+models/gru_conditional_seed62.pt
+models/gru_unconditional_seed42.pt
+models/gru_unconditional_seed52.pt
+models/gru_unconditional_seed62.pt
+models/README.md
+models/vae_unconditional_seed42.pt
+models/vae_unconditional_seed52.pt
+models/vae_unconditional_seed62.pt
+README.md
+reproducibility/audit/charge_implementation_summary.md
+reproducibility/environment/conda-explicit-spec.txt
+reproducibility/environment/conda-list.txt
+reproducibility/environment/environment-lock.yml
+reproducibility/environment/git_commit.txt
+reproducibility/environment/git_describe.txt
+reproducibility/environment/nvcc-version.txt
+reproducibility/environment/nvidia-smi.txt
+reproducibility/environment/os-release.txt
+reproducibility/environment/requirements-lock.txt
+reproducibility/environment/runtime_versions.json
+reproducibility/environment/SHA256SUMS.txt
+reproducibility/environment/uname.txt
+reproducibility/release/release_SHA256SUMS_v1.0.2.txt
+reproducibility/release/tracked_files_v1.0.2.txt
+requirements.txt
+results/audit/README.md
+results/benchmarking/README.md
+results/contextual/compact_overlap_and_subset_audit.csv
+results/contextual/final_panel_contextual_support_detail.csv
+results/contextual/final_panel_pairwise_similarity.csv
+results/contextual/stage_subset_audits.csv
+results/generation/generated_candidates_evaluated.csv
+results/generation/generated_candidates_raw.csv
+results/prioritization/shortlist_24_with_step9_annotations.csv
+results/source_data/all data/Figure_1_source_data_all_panels.csv
+results/source_data/all data/Figure_2_source_data_all_panels.csv
+results/source_data/all data/Figure_3_descriptor_support_source_data_all_panels.csv
+results/source_data/all data/Figure_4_source_data_all_panels.csv
+results/source_data/all data/Figure_5_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S10_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S11_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S12_similarity_tail_risk_source_data_all_panels (1).csv
+results/source_data/all data/Supplementary_Figure_S13_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S14_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S1_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S2_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S3_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S4_panel_a_source_data.csv
+results/source_data/all data/Supplementary_Figure_S4_panel_b_source_data.csv
+results/source_data/all data/Supplementary_Figure_S4_panel_c_source_data.csv
+results/source_data/all data/Supplementary_Figure_S4_panel_d_source_data.csv
+results/source_data/all data/Supplementary_Figure_S5_panel_a_source_data.csv
+results/source_data/all data/Supplementary_Figure_S5_panel_b_source_data.csv
+results/source_data/all data/Supplementary_Figure_S5_panel_c_source_data.csv
+results/source_data/all data/Supplementary_Figure_S5_panel_d_source_data.csv
+results/source_data/all data/Supplementary_Figure_S6_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S7_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S8_source_data_all_panels.csv
+results/source_data/all data/Supplementary_Figure_S9_source_data_all_panels.csv
+results/source_data/passed_pool_with_step9_annotations.csv
+results/source_data/residue_class_summary.csv
+results/tables/Supplementary_Table_S1_final_12_candidates.csv
+results/tables/Supplementary_Table_S2_literature_templates.csv
+results/tables/Supplementary_Table_S3_literature_candidates.csv
+src/descriptors.py
+src/figures/generate_figure4_s13.py
+src/figures/generate_figure5_s14.py
+src/README.md
