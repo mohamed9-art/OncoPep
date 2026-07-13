@@ -1,0 +1,23 @@
+{
+  "python_version": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "python_executable": "/home/data5/mohamed/conda_envs/pepcvae/bin/python",
+  "runtime_environment": "/home/data5/mohamed/conda_envs/pepcvae",
+  "operating_system": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "pytorch_version": "2.6.0+cu124",
+  "pytorch_cuda_build": "12.4",
+  "cuda_available": true,
+  "cudnn_version": 90100,
+  "gpu_count": 1,
+  "gpus": [
+    {
+      "index": 0,
+      "model": "NVIDIA GeForce RTX 3090",
+      "memory_bytes": 25325600768,
+      "memory_gb": 23.59,
+      "compute_capability": [
+        8,
+        6
+      ]
+    }
+  ]
+}
