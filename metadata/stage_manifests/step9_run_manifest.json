@@ -1,0 +1,129 @@
+{
+  "config": {
+    "project_root": "/home/data3/Moe/nature_computational2/",
+    "step9_dir": "step9_v1",
+    "step1_reference_file": "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv",
+    "step8_passed_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv",
+    "step8_shortlist_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_1_shortlist_main.csv",
+    "step8_final_panel_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_2_final_diverse_panel.csv",
+    "paper_templates_file": "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s1_templates.csv",
+    "paper_candidates_file": "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s2_candidates.csv",
+    "paper_templates_fallbacks": [
+      "/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s1_templates.csv"
+    ],
+    "paper_candidates_fallbacks": [
+      "/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s2_candidates.csv"
+    ],
+    "step8_candidate_pool_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_2_candidate_pool_with_flags.csv",
+    "step8_filter_audit_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_1_filter_audit.csv",
+    "sequence_col_candidates": [
+      "sequence",
+      "peptide",
+      "seq",
+      "peptide_sequence",
+      "aligned_sequence"
+    ],
+    "id_col_candidates": [
+      "generated_id",
+      "candidate_id",
+      "peptide_id",
+      "id"
+    ],
+    "novelty_score_candidates": [
+      "novelty_score"
+    ],
+    "plausibility_score_candidates": [
+      "descriptor_plausibility_score",
+      "plausibility_score"
+    ],
+    "diversity_score_candidates": [
+      "diversity_score"
+    ],
+    "final_score_candidates": [
+      "final_score"
+    ],
+    "similarity_kmer": 3,
+    "enrichment_pseudocount": 1e-06,
+    "bootstrap_iterations": 1000,
+    "random_seed": 42,
+    "require_stage_subset_checks": true,
+    "require_unique_final_ids": true,
+    "require_nonempty_paper_context_files": true,
+    "percentile_bands": [
+      0.5,
+      0.8
+    ],
+    "figure_export": {
+      "png_dpi": 300,
+      "tif_dpi": 600,
+      "export_pdf": true,
+      "export_png": true,
+      "export_tif": true,
+      "single_col_width_in": 3.5,
+      "double_col_width_in": 7.1
+    }
+  },
+  "environment_manifest": {
+    "timestamp_utc": "2026-04-14T09:29:34+00:00",
+    "python_version": "3.10.20",
+    "platform": "Linux-6.8.0-106-generic-x86_64-with-glibc2.35",
+    "numpy_version": "2.2.6",
+    "pandas_version": "2.3.3",
+    "matplotlib_version": "3.10.8",
+    "cwd": "/home/data3/Moe/nature_computational2"
+  },
+  "scientific_scope": {
+    "step_name": "Step 9 — paper-derived contextual support only",
+    "claims_not_supported": [
+      "independent external validation",
+      "orthogonal wet-lab confirmation",
+      "external predictive-tool validation",
+      "proof of anticancer activity"
+    ]
+  },
+  "resolved_input_paths": {
+    "step1_reference_file": "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv",
+    "step8_passed_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv",
+    "step8_shortlist_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_1_shortlist_main.csv",
+    "step8_final_panel_file": "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_2_final_diverse_panel.csv",
+    "paper_templates_file": "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s1_templates.csv",
+    "paper_candidates_file": "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s2_candidates.csv"
+  },
+  "input_hashes": {
+    "step1_reference_sha256": "8b9a9962c09d9f1fe6654f69ff078d2815010d1581d0fefcaf06541411278f7f",
+    "step8_passed_sha256": "9458c3c290ec9245fc0d581697e33150bd26d7f61e121ca69459702d97e1e09b",
+    "step8_shortlist_sha256": "0c03a53abed9d0bca9f49bd7a23b114a8254162a226b4ce79bdea3ec23a562aa",
+    "step8_final_panel_sha256": "7d774029a617e635a66f9784d327014cf65a22127383229c337dc4c378ff2127",
+    "paper_templates_sha256": "edf6ebca304b786d941facab4517aaffd36a689a621ae3c48f9aa6bc22da2bf1",
+    "paper_candidates_sha256": "f1db98b30ec8c3604f633c2f55aa2fae5add41c8156e7421e32bca3a28eedd22"
+  },
+  "subset_checks": {
+    "shortlist_in_passed": {
+      "child_label": "Shortlist",
+      "parent_label": "Passed",
+      "child_unique_n": 24,
+      "parent_unique_n": 10237,
+      "missing_in_parent_n": 0,
+      "missing_examples": [],
+      "is_subset": 1
+    },
+    "final_in_shortlist": {
+      "child_label": "Final panel",
+      "parent_label": "Shortlist",
+      "child_unique_n": 12,
+      "parent_unique_n": 24,
+      "missing_in_parent_n": 0,
+      "missing_examples": [],
+      "is_subset": 1
+    },
+    "final_in_passed": {
+      "child_label": "Final panel",
+      "parent_label": "Passed",
+      "child_unique_n": 12,
+      "parent_unique_n": 10237,
+      "missing_in_parent_n": 0,
+      "missing_examples": [],
+      "is_subset": 1
+    }
+  }
+}

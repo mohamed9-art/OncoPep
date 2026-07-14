@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-27T10:04:50.421849",
+  "platform": "Linux-6.8.0-101-generic-x86_64-with-glibc2.35",
+  "python": "3.10.20",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "matplotlib": "3.10.1",
+  "input_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv",
+  "input_sha256": "938847b0f6b75c7a451e46c3274f7ab8a4da699cc7b9366fa254887eef59f581"
+}

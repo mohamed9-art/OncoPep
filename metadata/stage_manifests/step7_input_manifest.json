@@ -1,0 +1,24 @@
+{
+  "files_loaded": [
+    "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_full_cvae_seed42.csv",
+    "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_conditional_gru_lm_seed42.csv",
+    "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_random_condition_seed42.csv",
+    "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_no_condition_seed42.csv",
+    "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_small_latent_seed42.csv"
+  ],
+  "files_missing": [],
+  "row_counts": {
+    "full_cvae": 2189,
+    "conditional_gru_lm": 2189,
+    "random_condition": 2189,
+    "no_condition": 2189,
+    "small_latent": 2189
+  },
+  "resolved_paths": {
+    "full_cvae": "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_full_cvae_seed42.csv",
+    "conditional_gru_lm": "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_conditional_gru_lm_seed42.csv",
+    "random_condition": "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_random_condition_seed42.csv",
+    "no_condition": "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_no_condition_seed42.csv",
+    "small_latent": "/home/data3/Moe/nature_computational2/step6_v5/qa/step6_generated_sequences_small_latent_seed42.csv"
+  }
+}

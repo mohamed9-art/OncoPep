@@ -1,0 +1,121 @@
+{
+  "step": "step3_conditioning_schema",
+  "created_at": "2026-03-27T09:07:38.006227",
+  "input_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv",
+  "input_sha256": "0d6d201c3d3868e92a059d7cdb2e4f18bb2f64b8ce7b41c2a6550d21d776d020",
+  "use_train_only_thresholds": true,
+  "sequence_col": "sequence",
+  "hash_col": "sequence_sha256",
+  "split_col": "assigned_split",
+  "source_col": null,
+  "conditions": {
+    "length": {
+      "type": "binned_numeric",
+      "is_primary": true,
+      "n_bins": 3,
+      "labels": [
+        "low",
+        "mid",
+        "high"
+      ],
+      "edges": [
+        4.999999999,
+        15.0,
+        31.0,
+        60.000000001
+      ],
+      "interval_labels": [
+        "[5.000, 15.000)",
+        "[15.000, 31.000)",
+        "[31.000, 60.000]"
+      ],
+      "fit_population": "train_only",
+      "train_bin_counts": {
+        "low": 7560,
+        "mid": 8616,
+        "high": 8309
+      }
+    },
+    "net_charge_pH7": {
+      "type": "binned_numeric",
+      "is_primary": true,
+      "n_bins": 3,
+      "labels": [
+        "low",
+        "mid",
+        "high"
+      ],
+      "edges": [
+        -18.076600001,
+        0.8803,
+        2.9106,
+        22.906400001
+      ],
+      "interval_labels": [
+        "[-18.077, 0.880)",
+        "[0.880, 2.911)",
+        "[2.911, 22.906]"
+      ],
+      "fit_population": "train_only",
+      "train_bin_counts": {
+        "low": 8157,
+        "mid": 8162,
+        "high": 8166
+      }
+    },
+    "hydrophobicity_KD": {
+      "type": "binned_numeric",
+      "is_primary": true,
+      "n_bins": 3,
+      "labels": [
+        "low",
+        "mid",
+        "high"
+      ],
+      "edges": [
+        -4.500000001,
+        -0.704,
+        -0.1182,
+        3.885714287
+      ],
+      "interval_labels": [
+        "[-4.500, -0.704)",
+        "[-0.704, -0.118)",
+        "[-0.118, 3.886]"
+      ],
+      "fit_population": "train_only",
+      "train_bin_counts": {
+        "low": 8161,
+        "mid": 8161,
+        "high": 8163
+      }
+    },
+    "entropy": {
+      "type": "binned_numeric",
+      "is_primary": false,
+      "n_bins": 3,
+      "labels": [
+        "low",
+        "mid",
+        "high"
+      ],
+      "edges": [
+        -1e-09,
+        3.0,
+        3.5459937246743802,
+        4.183302386188318
+      ],
+      "interval_labels": [
+        "[-0.000, 3.000)",
+        "[3.000, 3.546)",
+        "[3.546, 4.183]"
+      ],
+      "fit_population": "train_only",
+      "train_bin_counts": {
+        "low": 8150,
+        "mid": 8173,
+        "high": 8162
+      }
+    }
+  }
+}

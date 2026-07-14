@@ -1,0 +1,4 @@
+split,n_sequences,n_unique_primary_condition_ids,n_unique_ids_supported_by_train,n_unique_ids_not_in_train,n_sequences_with_unseen_primary_condition_id,fraction_sequences_with_unseen_primary_condition_id,unseen_primary_condition_ids
+train,24485,27,27,0,0,0.0,
+val,13248,27,27,0,0,0.0,
+test,13250,27,27,0,0,0.0,

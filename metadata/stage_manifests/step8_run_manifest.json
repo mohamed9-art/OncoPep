@@ -1,0 +1,204 @@
+{
+  "config": {
+    "project_root": "/home/data3/Moe/nature_computational2/",
+    "step1_dir": "step1",
+    "step7_dir": "step7_v3",
+    "step8_dir": "step8_v1",
+    "step1_reference_file": "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv",
+    "step7_candidate_file": "/home/data3/Moe/nature_computational2/step7_v3/outputs/tables/step7_generated_final_audited.csv",
+    "allow_relaxed_step7_input": true,
+    "step7_exclude_path_keywords": [
+      "train_reference_stats",
+      "descriptor_bounds",
+      "summary_report",
+      "counts.json"
+    ],
+    "step7_candidate_aliases": [
+      "step7_candidates_for_step8.csv",
+      "step7_generated_final_audited.csv",
+      "step7_generated_condition_consistency.csv",
+      "step7_generated_similarity_audit.csv",
+      "step7_generated_qc_filtered.csv",
+      "step7_generated_raw_sequences.csv"
+    ],
+    "sequence_col_candidates": [
+      "sequence",
+      "peptide",
+      "seq",
+      "peptide_sequence"
+    ],
+    "id_col_candidates": [
+      "generated_id",
+      "candidate_id",
+      "peptide_id",
+      "id"
+    ],
+    "merge_key_col_candidates": [
+      "sequence_sha256",
+      "seq_sha256"
+    ],
+    "exact_train_match_col_candidates": [
+      "is_exact_train_match",
+      "train_exact_match",
+      "exact_match_train",
+      "in_train_reference"
+    ],
+    "train_nn_similarity_col_candidates": [
+      "train_nn_similarity",
+      "nearest_train_similarity",
+      "max_train_similarity",
+      "train_jaccard_nn",
+      "nn_similarity_train"
+    ],
+    "exact_full_match_col_candidates": [
+      "is_exact_full_match",
+      "full_exact_match",
+      "exact_match_full",
+      "in_full_reference"
+    ],
+    "requested_length_bin_col_candidates": [
+      "requested_length_bin",
+      "target_length_bin",
+      "condition_length_bin",
+      "length_bin"
+    ],
+    "requested_charge_bin_col_candidates": [
+      "requested_charge_bin",
+      "target_charge_bin",
+      "condition_charge_bin",
+      "net_charge_bin"
+    ],
+    "requested_hydrophobicity_bin_col_candidates": [
+      "requested_hydrophobicity_bin",
+      "target_hydrophobicity_bin",
+      "condition_hydrophobicity_bin",
+      "hydrophobicity_bin"
+    ],
+    "requested_length_min_col_candidates": [
+      "requested_length_min",
+      "target_length_min"
+    ],
+    "requested_length_max_col_candidates": [
+      "requested_length_max",
+      "target_length_max"
+    ],
+    "requested_charge_min_col_candidates": [
+      "requested_charge_min",
+      "target_charge_min"
+    ],
+    "requested_charge_max_col_candidates": [
+      "requested_charge_max",
+      "target_charge_max"
+    ],
+    "requested_hydrophobicity_min_col_candidates": [
+      "requested_hydrophobicity_min",
+      "target_hydrophobicity_min"
+    ],
+    "requested_hydrophobicity_max_col_candidates": [
+      "requested_hydrophobicity_max",
+      "target_hydrophobicity_max"
+    ],
+    "supportive_score_candidates": [
+      "acp_probability",
+      "acp_score",
+      "predicted_acp_probability",
+      "prob_acp",
+      "amp_probability",
+      "supportive_model_score"
+    ],
+    "toxicity_score_candidates": [
+      "toxicity_probability",
+      "toxicity_score",
+      "predicted_toxicity"
+    ],
+    "hemolysis_score_candidates": [
+      "hemolysis_probability",
+      "hemolysis_score",
+      "predicted_hemolysis"
+    ],
+    "main_random_seed": 42,
+    "bootstrap_iterations": 300,
+    "min_length": 5,
+    "max_length": 50,
+    "low_complexity_entropy_threshold": 1.5,
+    "max_homopolymer_run_fraction": 0.35,
+    "max_single_residue_fraction": 0.6,
+    "min_unique_residue_fraction": 0.25,
+    "max_train_nn_similarity": 0.85,
+    "require_not_in_train_exact": true,
+    "require_not_in_full_exact_if_available": false,
+    "similarity_kmer": 3,
+    "shortlist_top_n": 24,
+    "final_diverse_panel_n": 12,
+    "similarity_threshold_for_clusters": 0.75,
+    "max_per_similarity_cluster": 2,
+    "reference_quantile_low": 0.02,
+    "reference_quantile_high": 0.98,
+    "descriptor_weight_map": {
+      "length": 1.0,
+      "mean_hydropathy": 1.0,
+      "net_charge_proxy": 1.2,
+      "hydrophobic_frac": 0.9,
+      "positive_frac": 1.1,
+      "negative_frac": 0.8,
+      "aromatic_frac": 0.7,
+      "entropy": 1.0,
+      "max_run_fraction": 1.0
+    },
+    "ranking_weights": {
+      "novelty_score": 0.35,
+      "descriptor_plausibility_score": 0.35,
+      "diversity_score": 0.3
+    },
+    "ranking_schemes": {
+      "primary": {
+        "novelty_score": 0.35,
+        "descriptor_plausibility_score": 0.35,
+        "diversity_score": 0.3
+      },
+      "novelty_heavy": {
+        "novelty_score": 0.5,
+        "descriptor_plausibility_score": 0.25,
+        "diversity_score": 0.25
+      },
+      "plausibility_heavy": {
+        "novelty_score": 0.25,
+        "descriptor_plausibility_score": 0.5,
+        "diversity_score": 0.25
+      },
+      "diversity_heavy": {
+        "novelty_score": 0.25,
+        "descriptor_plausibility_score": 0.25,
+        "diversity_score": 0.5
+      }
+    },
+    "component_variance_tolerance": 1e-06,
+    "figure_export": {
+      "png_dpi": 300,
+      "tif_dpi": 600,
+      "export_pdf": true,
+      "export_png": true,
+      "export_tif": true,
+      "single_col_width_in": 3.5,
+      "double_col_width_in": 7.1,
+      "panel_fontsize": 10,
+      "base_fontsize": 8,
+      "legend_fontsize": 7
+    }
+  },
+  "step1_reference_path": "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv",
+  "step7_candidate_path": "/home/data3/Moe/nature_computational2/step7_v3/outputs/tables/step7_generated_final_audited.csv",
+  "input_hashes": {
+    "step1_reference_sha256": "8b9a9962c09d9f1fe6654f69ff078d2815010d1581d0fefcaf06541411278f7f",
+    "step7_candidate_sha256": "6822eb6c6e97c9ae7107a2c846ca35c18460b755adc5724a4b4a57fcbcbb4218"
+  },
+  "environment_manifest": {
+    "timestamp_utc": "2026-04-10T02:06:54+00:00",
+    "python_version": "3.10.20",
+    "platform": "Linux-6.8.0-106-generic-x86_64-with-glibc2.35",
+    "numpy_version": "2.2.6",
+    "pandas_version": "2.3.3",
+    "matplotlib_version": "3.10.8",
+    "cwd": "/home/data3/Moe/nature_computational2"
+  }
+}

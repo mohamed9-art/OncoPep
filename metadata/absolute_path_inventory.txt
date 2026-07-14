@@ -1,0 +1,763 @@
+notebooks/OncoPep_training_generation.ipynb:79:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/OncoPep_merged_clean_labeled4.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:1204:    "    input_csv=\"/home/data3/mohamed/peponco/clean dataset/OncoPep_merged_clean_labeled4.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:1258:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:3035:    "#     input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:3056:    "    input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:3078:    "step2_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2\")\n",
+notebooks/OncoPep_training_generation.ipynb:3107:    "step2_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2\")\n",
+notebooks/OncoPep_training_generation.ipynb:3189:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:4183:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:4213:    "    input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:4256:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:5343:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:5377:    "    input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:5429:    "    input_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:6396:    "        input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:6413:    "    input_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:6448:    "STEP4_DIR = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:6744:    "STEP4_DIR = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:7047:    "step4_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:7102:    "step4_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:7131:    "step4_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:7163:    "step4_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:7192:    "step4_dir = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4\")\n",
+notebooks/OncoPep_training_generation.ipynb:8272:    "        input_model_ready_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:8273:    "        input_baseline_features_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:8274:    "        input_preprocessing_contract_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:8275:    "        input_condition_id_mapping_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:9367:    "        input_model_ready_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:9368:    "        input_baseline_features_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:9369:    "        input_preprocessing_contract_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:9370:    "        input_condition_id_mapping_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:10989:    "        input_model_ready_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:10990:    "        input_baseline_features_csv=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:10991:    "        input_preprocessing_contract_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:10992:    "        input_condition_id_mapping_json=\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json\",\n",
+notebooks/OncoPep_training_generation.ipynb:11025:    "SEARCH_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:11420:    "    input_model_ready_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:11421:    "    input_baseline_features_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:13333:    "    input_model_ready_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:13334:    "    input_baseline_features_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:13506:    "    input_model_ready_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:13507:    "    input_baseline_features_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:15376:    "    input_model_ready_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:15377:    "    input_baseline_features_csv: str = \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:15431:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\"\n",
+notebooks/OncoPep_training_generation.ipynb:15434:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:16356:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\"\n",
+notebooks/OncoPep_training_generation.ipynb:16359:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:17277:    "DEFAULT_STEP5_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\")\n",
+notebooks/OncoPep_training_generation.ipynb:17278:    "DEFAULT_STEP4_MODEL_READY = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:18075:    "DEFAULT_STEP5_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\")\n",
+notebooks/OncoPep_training_generation.ipynb:18589:    "DEFAULT_STEP5_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\")\n",
+notebooks/OncoPep_training_generation.ipynb:19100:    "DEFAULT_STEP5_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\")\n",
+notebooks/OncoPep_training_generation.ipynb:19101:    "DEFAULT_STEP4_MODEL_READY = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:19967:    "DEFAULT_STEP5_ROOT = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\")\n",
+notebooks/OncoPep_training_generation.ipynb:19968:    "DEFAULT_STEP4_MODEL_READY = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:20771:    "    Path(\"/home/data3/mohamed/peponco\"),\n",
+notebooks/OncoPep_training_generation.ipynb:20772:    "    Path(\"/mnt/data\"),\n",
+notebooks/OncoPep_training_generation.ipynb:20951:    "    Path(\"/home/data3/mohamed/peponco\"),\n",
+notebooks/OncoPep_training_generation.ipynb:20952:    "    Path(\"/mnt/data\"),\n",
+notebooks/OncoPep_training_generation.ipynb:21116:    "    step6_root = best[\"step6_root_candidates\"][0] if best[\"step6_root_candidates\"] else Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step6\")\n",
+notebooks/OncoPep_training_generation.ipynb:21166:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:21169:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts\"\n",
+notebooks/OncoPep_training_generation.ipynb:21172:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5\"\n",
+notebooks/OncoPep_training_generation.ipynb:21176:    "    \"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step6\"\n",
+notebooks/OncoPep_training_generation.ipynb:21178:    "DEFAULT_PEPCVAE_CODE = Path(\"/home/data3/mohamed/peponco/pepcvae.ipynb\")\n",
+notebooks/OncoPep_training_generation.ipynb:21811:    "PEPCVAE_NOTEBOOK = Path(\"/home/data3/mohamed/peponco/pepcvae.ipynb\")\n",
+notebooks/OncoPep_training_generation.ipynb:21812:    "STEP4_ARTIFACTS_DIR = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts\")\n",
+notebooks/OncoPep_training_generation.ipynb:21813:    "STEP4_MODEL_READY_CSV = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:21814:    "STEP5_MODELS_DIR = Path(\"/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5/models\")\n",
+notebooks/OncoPep_training_generation.ipynb:22091:    "PROJECT_ROOT = Path(\"/home/data3/Moe/nature_computational2\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:24994:    "PROJECT_ROOT = Path(\"/home/data3/Moe/nature_computational2\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:27867:    "STEP6_ROOT = Path(\"/home/data3/Moe/nature_computational2/step6_v5\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:28445:    "STEP6_ROOT = Path(\"/home/data3/Moe/nature_computational2/step6_v5\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:29068:    "STEP6_ROOT = Path(\"/home/data3/Moe/nature_computational2/step6_v5\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:29721:    "STEP6_ROOT = Path(\"/home/data3/Moe/nature_computational2/step6_v5\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:30386:    "STEP6_ROOT = Path(\"/home/data3/Moe/nature_computational2/step6_v5\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:30387:    "STEP7_ROOT = Path(\"/home/data3/Moe/nature_computational2/step7_v3\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:32210:    "STEP7_ROOT = Path(\"/home/data3/Moe/nature_computational2/step7_v3\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:32217:    "    Path(\"/mnt/data\"),\n",
+notebooks/OncoPep_training_generation.ipynb:32862:    "STEP7_ROOT = Path(\"/home/data3/Moe/nature_computational2/step7_v3\").resolve()\n",
+notebooks/OncoPep_training_generation.ipynb:32869:    "    Path(\"/mnt/data\"),\n",
+notebooks/OncoPep_training_generation.ipynb:33560:    "    project_root: str = \"/home/data3/Moe/nature_computational2/\"\n",
+notebooks/OncoPep_training_generation.ipynb:35147:    "step7_file = Path(\"/home/data3/Moe/nature_computational2/step7_v3\")\n",
+notebooks/OncoPep_training_generation.ipynb:35173:    "step1_file = Path(\"/home/data3/Moe/nature_computational2/step1\")\n",
+notebooks/OncoPep_training_generation.ipynb:35324:    "    project_root: str = \"/home/data3/Moe/nature_computational2/\"\n",
+notebooks/OncoPep_training_generation.ipynb:35330:    "    step1_reference_file: Optional[str] = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:36880:    "root = Path(\"/home/data3/Moe/nature_computational2/step7_v3\")\n",
+notebooks/OncoPep_training_generation.ipynb:37052:    "    project_root: str = \"/home/data3/Moe/nature_computational2/\"\n",
+notebooks/OncoPep_training_generation.ipynb:37057:    "    step1_reference_file: Optional[str] = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:38753:    "    base_root = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_training_generation.ipynb:38765:    "            \"Could not find step8_v1 or step8 under /home/data3/Moe/nature_computational2\"\n",
+notebooks/OncoPep_training_generation.ipynb:39330:    "    base_root = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_training_generation.ipynb:39837:    "    base_root = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_training_generation.ipynb:39849:    "            \"Could not find step8_v1 or step8 under /home/data3/Moe/nature_computational2\"\n",
+notebooks/OncoPep_training_generation.ipynb:40407:    "    project_root: str = \"/home/data3/Moe/nature_computational2/\"\n",
+notebooks/OncoPep_training_generation.ipynb:40412:    "    step1_reference_file: Optional[str] = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42069:    "    project_root: str = \"/home/data3/Moe/nature_computational2/\"\n",
+notebooks/OncoPep_training_generation.ipynb:42073:    "    step1_reference_file: str = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42074:    "    step8_passed_file: str = \"/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42075:    "    step8_shortlist_file: str = \"/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_1_shortlist_main.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42076:    "    step8_final_panel_file: str = \"/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_2_final_diverse_panel.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42081:    "    paper_templates_file: str = \"/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s1_templates.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42082:    "    paper_candidates_file: str = \"/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s2_candidates.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42084:    "        \"/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s1_templates.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:42087:    "        \"/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s2_candidates.csv\",\n",
+notebooks/OncoPep_training_generation.ipynb:42091:    "    step8_candidate_pool_file: str = \"/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_2_candidate_pool_with_flags.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:42092:    "    step8_filter_audit_file: str = \"/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_1_filter_audit.csv\"\n",
+notebooks/OncoPep_training_generation.ipynb:43472:    "STEP9_DIR = Path(\"/home/data3/Moe/nature_computational2/step9_v1\")\n",
+notebooks/OncoPep_training_generation.ipynb:43948:    "STEP9_DIR = Path(\"/home/data3/Moe/nature_computational2/step9_v1\")\n",
+notebooks/OncoPep_training_generation.ipynb:44320:    "STEP9_DIR = Path(\"/home/data3/Moe/nature_computational2/step9_v1\")\n",
+notebooks/OncoPep_training_generation.ipynb:44332:    "FILE_REFERENCE_CORPUS = Path(\"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:44944:    "STEP9_DIR = Path(\"/home/data3/Moe/nature_computational2/step9_v1\")\n",
+notebooks/OncoPep_training_generation.ipynb:45327:    "STEP9_DIR = Path(\"/home/data3/Moe/nature_computational2/step9_v1\")\n",
+notebooks/OncoPep_training_generation.ipynb:45334:    "FILE_REFERENCE_CORPUS = Path(\"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\")\n",
+notebooks/OncoPep_training_generation.ipynb:45658:    "BASE = Path('/home/data3/Moe/nature_computational2')\n",
+notebooks/OncoPep_training_generation.ipynb:46067:    "BASE = Path('/home/data3/Moe/nature_computational2')\n",
+notebooks/OncoPep_training_generation.ipynb:46476:    "BASE = Path('/home/data3/Moe/nature_computational2')\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:75:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:1473:    "    base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:1474:    "    input_csv=\"/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:1562:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:1563:    "INPUT_CSV_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:3041:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:3042:    "INPUT_CSV_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4457:    "    Path(\"/home/data3/Moe\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4458:    "    Path(\"/home/data3/mohamed\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4459:    "    Path(\"/home/data3\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4505:    "step2_dir = Path(\"/home/data3/Moe/nature_computational_peponco/step2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4555:    "step2_dir = Path(\"/home/data3/Moe/nature_computational_peponco/step2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4603:    "    Path(\"/home/data3/Moe/nature_computational_peponco/step2/tables/step2_split_summary.csv\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4604:    "    Path(\"/home/data3/Moe/nature_computational_peponco/step1/tables/nature_computational2/step2/tables/step2_split_summary.csv\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4646:    "        source_step2_dir=\"/home/data3/Moe/nature_computational_peponco/step2\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4647:    "        base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4683:    "SOURCE_STEP2_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/step2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:4684:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:5889:    "        source_step2_dir=\"/home/data3/Moe/nature_computational_peponco/step2\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:5890:    "        base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:5927:    "SOURCE_STEP2_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/step2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:5928:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:7252:    "    project_root=\"/home/data3/Moe/nature_computational2\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:7253:    "    base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:7289:    "PROJECT_ROOT_DEFAULT = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:7290:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:7597:    "            Path(\"/home/data3/Moe/nature_computational_peponco/step2/splits/step2_unique_sequences_with_splits.csv\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:8822:    "    project_root=\"/home/data3/Moe/nature_computational2\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:8823:    "    base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:8859:    "PROJECT_ROOT_DEFAULT = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:8860:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:9167:    "            Path(\"/home/data3/Moe/nature_computational_peponco/step2/splits/step2_unique_sequences_with_splits.csv\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:10447:    "PROJECT_ROOT_DEFAULT = Path(\"/home/data3/Moe/nature_computational2\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:10448:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:10748:    "        Path(\"/home/data3/Moe/nature_computational2/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11683:    "root = Path(\"/home/data3/Moe\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11710:    "    project_root=\"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11711:    "    base_dir=\"/home/data3/Moe/nature_computational_peponco/PLOS\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11714:    "    model_ready_file=\"/home/data3/Moe/nature_computational_peponco/step4/tables/step4_model_ready_sequences.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11715:    "    length_summary_file=\"/home/data3/Moe/nature_computational_peponco/step4/tables/step4_sequence_length_summary.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11716:    "    token_summary_file=\"/home/data3/Moe/nature_computational_peponco/step4/tables/step4_token_coverage_summary.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11717:    "    qc_summary_file=\"/home/data3/Moe/nature_computational_peponco/step4/tables/step4_tokenization_qc.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11741:    "/home/data3/Moe/nature_computational_peponco/step4/tables/\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11789:    "PROJECT_ROOT_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:11790:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:12090:    "        Path(\"/home/data3/Moe/nature_computational_peponco/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:12091:    "        Path(\"/home/data3/Moe/nature_computational_peponco/redesign/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:12092:    "        Path(\"/home/data3/Moe/nature_computational_peponco/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13045:    "            \"    project_root='/home/data3/Moe/nature_computational_peponco',\\n\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13046:    "            \"    base_dir='/home/data3/Moe/nature_computational_peponco/PLOS',\\n\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13105:    "/home/data3/Moe/nature_computational_peponco/step4/tables/\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13156:    "PROJECT_ROOT_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13157:    "BASE_DIR_DEFAULT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13457:    "        Path(\"/home/data3/Moe/nature_computational_peponco/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13458:    "        Path(\"/home/data3/Moe/nature_computational_peponco/redesign/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:13459:    "        Path(\"/home/data3/Moe/nature_computational_peponco/step4/tables\") / name,\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:14450:    "  /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_05/\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:14635:    "    project_root: Path = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:16022:    "    project_root: str | Path = \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:16098:    "  /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_05/\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:16283:    "    project_root: Path = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:17695:    "    project_root: str | Path = \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:17796:    "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_06/\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:17921:    "        Path(\"/home/data3/Moe/nature_computational_peponco/step6_v5\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:17922:    "        Path(\"/home/data3/Moe/nature_computational2/step6_v5\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:17931:    "    project_root: str | Path = \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:18896:    "    project_root: str | Path = \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19047:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19272:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19274:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19275:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19276:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19277:    "        \"/home/data3/Moe/nature_computational2/step7_v3\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19278:    "        \"/home/data3/Moe/nature_computational2/step7_v3/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19279:    "        \"/home/data3/Moe/nature_computational2/step7_v3/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19280:    "        \"/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19281:    "        \"/home/data3/Moe/nature_computational2/redesign/step7\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19282:    "        \"/home/data3/Moe/nature_computational2/redesign/step7/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19283:    "        \"/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19284:    "        \"/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:19561:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:20911:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:20977:    "    parser.add_argument(\"--step7-root\", default=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21012:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21084:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21085:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21086:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21087:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21088:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21089:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21090:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs/tables\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21091:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21093:    "    Path(\"/mnt/data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21139:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21140:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21141:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21142:    "    Path(\"/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21143:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21144:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21145:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs/tables\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21146:    "    Path(\"/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21147:    "    Path(\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21148:    "    Path(\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21162:    "!find /home/data3/Moe -maxdepth 8 -type f \\( \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21180:    "generated_file = \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21181:    "train_file = \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21203:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21204:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21205:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21259:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21260:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21261:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21429:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21431:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21432:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21433:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21434:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21435:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21436:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21437:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21438:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21439:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21440:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21441:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21442:    "        \"/home/data3/Moe/nature_computational_peponco/step8_v1/artifacts\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21443:    "        \"/mnt/data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:21660:    "def discover_any(candidate_names: Sequence[str], roots: Sequence[str], direct_file: Optional[str] = None, required: bool = False, label: str = \"file\", inventory: Optional[pd.DataFrame] = None, step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\") -> Optional[Path]:\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22574:    "def run_step7_candidate_audit(step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\", input_roots: Optional[Sequence[str]] = None, generated_file: Optional[str] = None, train_file: Optional[str] = None, final_file: Optional[str] = None, summary_file: Optional[str] = None, funnel_file: Optional[str] = None, reference_quantile_low: float = 0.01, reference_quantile_high: float = 0.99, similarity_low_risk_threshold: float = 0.30, top_n_final: int = 12, show_figures: bool = False, compute_missing_descriptors: bool = True, compute_nn_if_missing: bool = True, max_nn_pairs: int = 3_000_000) -> Dict[str, object]:\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22602:    "    parser.add_argument(\"--step7-root\", default=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22637:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22638:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22639:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22676:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22677:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22678:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22732:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22733:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22734:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22902:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22904:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22905:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22906:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22907:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22908:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22909:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22910:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22911:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22912:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22913:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22914:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22915:    "        \"/home/data3/Moe/nature_computational_peponco/step8_v1/artifacts\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:22916:    "        \"/mnt/data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:23139:    "def discover_any(candidate_names: Sequence[str], roots: Sequence[str], direct_file: Optional[str] = None, required: bool = False, label: str = \"file\", inventory: Optional[pd.DataFrame] = None, step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\") -> Optional[Path]:\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24428:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24485:    "    parser.add_argument(\"--step7-root\", default=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24524:    "    step7_root=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24525:    "    generated_file=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24526:    "    train_file=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24599:    "STEP7_ROOT = Path(\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\").resolve()\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24602:    "    \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24607:    "    \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24645:    "        Path(\"/mnt/data/OncoPep_step7_PLOS_candidate_audit_v9_sequential_ready.py\"),\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24795:    "  --step7-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24796:    "  --generated-file /home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:24797:    "  --train-file /home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25011:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25013:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25014:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25015:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25016:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25017:    "        \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25018:    "        \"/mnt/data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25021:    "    generated_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:25022:    "    train_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26433:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26435:    "    generated_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26436:    "    train_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26474:    "    parser.add_argument(\"--step7-root\", default=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26476:    "    parser.add_argument(\"--generated-file\", default=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26477:    "    parser.add_argument(\"--train-file\", default=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26571:    "  --step7-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26572:    "  --generated-file /home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26573:    "  --train-file /home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26787:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26789:    "        \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26790:    "        \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26791:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26792:    "        \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26793:    "        \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26794:    "        \"/mnt/data\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26797:    "    generated_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:26798:    "    train_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28188:    "    step7_root: str = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28190:    "    generated_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28191:    "    train_file: Optional[str] = \"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28229:    "    parser.add_argument(\"--step7-root\", default=\"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28231:    "    parser.add_argument(\"--generated-file\", default=\"/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28232:    "    parser.add_argument(\"--train-file\", default=\"/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28321:    "    --step8-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28322:    "    --project-root /home/data3/Moe/nature_computational_peponco \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28323:    "    --passed-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28324:    "    --shortlist-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28325:    "    --stability-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28326:    "    --recurrence-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:28356:    "DEFAULT_PROJECT_ROOT = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29873:    "    \"--step8-root\", \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29874:    "    \"--project-root\", \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29875:    "    \"--passed-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29876:    "    \"--shortlist-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29877:    "    \"--stability-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29878:    "    \"--recurrence-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:29950:    "DEFAULT_PROJECT_ROOT = Path(\"/home/data3/Moe/nature_computational_peponco\")\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31295:    "    \"--step8-root\", \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31296:    "    \"--project-root\", \"/home/data3/Moe/nature_computational_peponco\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31297:    "    \"--passed-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31298:    "    \"--shortlist-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31299:    "    \"--stability-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31300:    "    \"--recurrence-file\", \"/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv\",\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31358:    "  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31359:    "  --project-root /home/data3/Moe/nature_computational_peponco \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31360:    "  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31397:    "DEFAULT_STEP9_ROOT = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31398:    "DEFAULT_PROJECT_ROOT = \"/home/data3/Moe/nature_computational_peponco\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31399:    "DEFAULT_LEGACY_STEP9_ROOT = \"/home/data3/Moe/nature_computational2/step9_v1\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:31400:    "DEFAULT_LEGACY_REFERENCE = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32591:    "  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32592:    "  --project-root /home/data3/Moe/nature_computational_peponco \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32593:    "  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32630:    "DEFAULT_STEP9_ROOT = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32631:    "DEFAULT_PROJECT_ROOT = \"/home/data3/Moe/nature_computational_peponco\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32632:    "DEFAULT_LEGACY_STEP9_ROOT = \"/home/data3/Moe/nature_computational2/step9_v1\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:32633:    "DEFAULT_LEGACY_REFERENCE = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33857:    "  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33858:    "  --project-root /home/data3/Moe/nature_computational_peponco \\\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33859:    "  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33896:    "DEFAULT_STEP9_ROOT = \"/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33897:    "DEFAULT_PROJECT_ROOT = \"/home/data3/Moe/nature_computational_peponco\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33898:    "DEFAULT_LEGACY_STEP9_ROOT = \"/home/data3/Moe/nature_computational2/step9_v1\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:33899:    "DEFAULT_LEGACY_REFERENCE = \"/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35140:    "        \"/home/data3/Moe/nature_computational_peponco\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35143:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35148:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35153:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35157:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35161:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:35166:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:36987:    "        \"/home/data3/Moe/nature_computational_peponco\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:36990:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:36995:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:37000:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:37004:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:37008:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+notebooks/OncoPep_PLOS_figure_generation.ipynb:37013:    "        \"/home/data3/Moe/nature_computational_peponco/\"\n",
+src/prioritization/oncopep_prioritization.py:34:    --step8-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08 \
+src/prioritization/oncopep_prioritization.py:35:    --project-root /home/data3/Moe/nature_computational_peponco \
+src/prioritization/oncopep_prioritization.py:36:    --passed-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv \
+src/prioritization/oncopep_prioritization.py:37:    --shortlist-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv \
+src/prioritization/oncopep_prioritization.py:38:    --stability-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv \
+src/prioritization/oncopep_prioritization.py:39:    --recurrence-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv \
+src/prioritization/oncopep_prioritization.py:69:DEFAULT_PROJECT_ROOT = Path("/home/data3/Moe/nature_computational_peponco")
+src/training/oncopep_training_generation_notebook_export.py:71:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/OncoPep_merged_clean_labeled4.csv"
+src/training/oncopep_training_generation_notebook_export.py:1189:    input_csv="/home/data3/mohamed/peponco/clean dataset/OncoPep_merged_clean_labeled4.csv",
+src/training/oncopep_training_generation_notebook_export.py:1228:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/training/oncopep_training_generation_notebook_export.py:3005:#     input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv",
+src/training/oncopep_training_generation_notebook_export.py:3019:    input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step1/tables/step1_retained_dataset.csv",
+src/training/oncopep_training_generation_notebook_export.py:3034:step2_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2")
+src/training/oncopep_training_generation_notebook_export.py:3056:step2_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2")
+src/training/oncopep_training_generation_notebook_export.py:3123:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv"
+src/training/oncopep_training_generation_notebook_export.py:4117:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv",
+src/training/oncopep_training_generation_notebook_export.py:4140:    input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv",
+src/training/oncopep_training_generation_notebook_export.py:4176:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv"
+src/training/oncopep_training_generation_notebook_export.py:5263:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv",
+src/training/oncopep_training_generation_notebook_export.py:5290:    input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step2/splits/step2_unique_sequences_with_splits.csv",
+src/training/oncopep_training_generation_notebook_export.py:5327:    input_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:6294:        input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:6304:    input_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:6324:STEP4_DIR = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:6613:STEP4_DIR = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:6909:step4_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:6957:step4_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:6979:step4_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:6996:step4_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:7018:step4_dir = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4")
+src/training/oncopep_training_generation_notebook_export.py:8083:        input_model_ready_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:8084:        input_baseline_features_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+src/training/oncopep_training_generation_notebook_export.py:8085:        input_preprocessing_contract_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json",
+src/training/oncopep_training_generation_notebook_export.py:8086:        input_condition_id_mapping_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json",
+src/training/oncopep_training_generation_notebook_export.py:9163:        input_model_ready_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:9164:        input_baseline_features_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+src/training/oncopep_training_generation_notebook_export.py:9165:        input_preprocessing_contract_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json",
+src/training/oncopep_training_generation_notebook_export.py:9166:        input_condition_id_mapping_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json",
+src/training/oncopep_training_generation_notebook_export.py:10771:        input_model_ready_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:10772:        input_baseline_features_csv="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+src/training/oncopep_training_generation_notebook_export.py:10773:        input_preprocessing_contract_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_preprocessing_contract.json",
+src/training/oncopep_training_generation_notebook_export.py:10774:        input_condition_id_mapping_json="/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts/step4_condition_id_mapping.json",
+src/training/oncopep_training_generation_notebook_export.py:10800:SEARCH_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2").resolve()
+src/training/oncopep_training_generation_notebook_export.py:11180:    input_model_ready_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:11181:    input_baseline_features_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv"
+src/training/oncopep_training_generation_notebook_export.py:13093:    input_model_ready_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:13094:    input_baseline_features_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+src/training/oncopep_training_generation_notebook_export.py:13259:    input_model_ready_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:13260:    input_baseline_features_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv"
+src/training/oncopep_training_generation_notebook_export.py:15129:    input_model_ready_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+src/training/oncopep_training_generation_notebook_export.py:15130:    input_baseline_features_csv: str = "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+src/training/oncopep_training_generation_notebook_export.py:15169:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5"
+src/training/oncopep_training_generation_notebook_export.py:15172:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:16087:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5"
+src/training/oncopep_training_generation_notebook_export.py:16090:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:17001:DEFAULT_STEP5_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5")
+src/training/oncopep_training_generation_notebook_export.py:17002:DEFAULT_STEP4_MODEL_READY = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv")
+src/training/oncopep_training_generation_notebook_export.py:17784:DEFAULT_STEP5_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5")
+src/training/oncopep_training_generation_notebook_export.py:18283:DEFAULT_STEP5_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5")
+src/training/oncopep_training_generation_notebook_export.py:18779:DEFAULT_STEP5_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5")
+src/training/oncopep_training_generation_notebook_export.py:18780:DEFAULT_STEP4_MODEL_READY = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv")
+src/training/oncopep_training_generation_notebook_export.py:19631:DEFAULT_STEP5_ROOT = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5")
+src/training/oncopep_training_generation_notebook_export.py:19632:DEFAULT_STEP4_MODEL_READY = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv")
+src/training/oncopep_training_generation_notebook_export.py:20428:    Path("/home/data3/mohamed/peponco"),
+src/training/oncopep_training_generation_notebook_export.py:20429:    Path("/mnt/data"),
+src/training/oncopep_training_generation_notebook_export.py:20601:    Path("/home/data3/mohamed/peponco"),
+src/training/oncopep_training_generation_notebook_export.py:20602:    Path("/mnt/data"),
+src/training/oncopep_training_generation_notebook_export.py:20766:    step6_root = best["step6_root_candidates"][0] if best["step6_root_candidates"] else Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step6")
+src/training/oncopep_training_generation_notebook_export.py:20799:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv"
+src/training/oncopep_training_generation_notebook_export.py:20802:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts"
+src/training/oncopep_training_generation_notebook_export.py:20805:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5"
+src/training/oncopep_training_generation_notebook_export.py:20809:    "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step6"
+src/training/oncopep_training_generation_notebook_export.py:20811:DEFAULT_PEPCVAE_CODE = Path("/home/data3/mohamed/peponco/pepcvae.ipynb")
+src/training/oncopep_training_generation_notebook_export.py:21437:PEPCVAE_NOTEBOOK = Path("/home/data3/mohamed/peponco/pepcvae.ipynb")
+src/training/oncopep_training_generation_notebook_export.py:21438:STEP4_ARTIFACTS_DIR = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/artifacts")
+src/training/oncopep_training_generation_notebook_export.py:21439:STEP4_MODEL_READY_CSV = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv")
+src/training/oncopep_training_generation_notebook_export.py:21440:STEP5_MODELS_DIR = Path("/home/data3/mohamed/peponco/clean dataset/nature_computational2/step5/models")
+src/training/oncopep_training_generation_notebook_export.py:21702:PROJECT_ROOT = Path("/home/data3/Moe/nature_computational2").resolve()
+src/training/oncopep_training_generation_notebook_export.py:24590:PROJECT_ROOT = Path("/home/data3/Moe/nature_computational2").resolve()
+src/training/oncopep_training_generation_notebook_export.py:27448:STEP6_ROOT = Path("/home/data3/Moe/nature_computational2/step6_v5").resolve()
+src/training/oncopep_training_generation_notebook_export.py:28019:STEP6_ROOT = Path("/home/data3/Moe/nature_computational2/step6_v5").resolve()
+src/training/oncopep_training_generation_notebook_export.py:28635:STEP6_ROOT = Path("/home/data3/Moe/nature_computational2/step6_v5").resolve()
+src/training/oncopep_training_generation_notebook_export.py:29281:STEP6_ROOT = Path("/home/data3/Moe/nature_computational2/step6_v5").resolve()
+src/training/oncopep_training_generation_notebook_export.py:29929:STEP6_ROOT = Path("/home/data3/Moe/nature_computational2/step6_v5").resolve()
+src/training/oncopep_training_generation_notebook_export.py:29930:STEP7_ROOT = Path("/home/data3/Moe/nature_computational2/step7_v3").resolve()
+src/training/oncopep_training_generation_notebook_export.py:31737:STEP7_ROOT = Path("/home/data3/Moe/nature_computational2/step7_v3").resolve()
+src/training/oncopep_training_generation_notebook_export.py:31744:    Path("/mnt/data"),
+src/training/oncopep_training_generation_notebook_export.py:32382:STEP7_ROOT = Path("/home/data3/Moe/nature_computational2/step7_v3").resolve()
+src/training/oncopep_training_generation_notebook_export.py:32389:    Path("/mnt/data"),
+src/training/oncopep_training_generation_notebook_export.py:33065:    project_root: str = "/home/data3/Moe/nature_computational2/"
+src/training/oncopep_training_generation_notebook_export.py:34645:step7_file = Path("/home/data3/Moe/nature_computational2/step7_v3")
+src/training/oncopep_training_generation_notebook_export.py:34664:step1_file = Path("/home/data3/Moe/nature_computational2/step1")
+src/training/oncopep_training_generation_notebook_export.py:34808:    project_root: str = "/home/data3/Moe/nature_computational2/"
+src/training/oncopep_training_generation_notebook_export.py:34814:    step1_reference_file: Optional[str] = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/training/oncopep_training_generation_notebook_export.py:36357:root = Path("/home/data3/Moe/nature_computational2/step7_v3")
+src/training/oncopep_training_generation_notebook_export.py:36522:    project_root: str = "/home/data3/Moe/nature_computational2/"
+src/training/oncopep_training_generation_notebook_export.py:36527:    step1_reference_file: Optional[str] = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/training/oncopep_training_generation_notebook_export.py:38208:    base_root = Path("/home/data3/Moe/nature_computational2")
+src/training/oncopep_training_generation_notebook_export.py:38220:            "Could not find step8_v1 or step8 under /home/data3/Moe/nature_computational2"
+src/training/oncopep_training_generation_notebook_export.py:38770:    base_root = Path("/home/data3/Moe/nature_computational2")
+src/training/oncopep_training_generation_notebook_export.py:39262:    base_root = Path("/home/data3/Moe/nature_computational2")
+src/training/oncopep_training_generation_notebook_export.py:39274:            "Could not find step8_v1 or step8 under /home/data3/Moe/nature_computational2"
+src/training/oncopep_training_generation_notebook_export.py:39817:    project_root: str = "/home/data3/Moe/nature_computational2/"
+src/training/oncopep_training_generation_notebook_export.py:39822:    step1_reference_file: Optional[str] = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/training/oncopep_training_generation_notebook_export.py:41464:    project_root: str = "/home/data3/Moe/nature_computational2/"
+src/training/oncopep_training_generation_notebook_export.py:41468:    step1_reference_file: str = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/training/oncopep_training_generation_notebook_export.py:41469:    step8_passed_file: str = "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv"
+src/training/oncopep_training_generation_notebook_export.py:41470:    step8_shortlist_file: str = "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_1_shortlist_main.csv"
+src/training/oncopep_training_generation_notebook_export.py:41471:    step8_final_panel_file: str = "/home/data3/Moe/nature_computational2/step8_v1/tables_main/table_8_2_final_diverse_panel.csv"
+src/training/oncopep_training_generation_notebook_export.py:41476:    paper_templates_file: str = "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s1_templates.csv"
+src/training/oncopep_training_generation_notebook_export.py:41477:    paper_candidates_file: str = "/home/data3/Moe/nature_computational2/step9_v1/external validation/paper_001_table_s2_candidates.csv"
+src/training/oncopep_training_generation_notebook_export.py:41479:        "/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s1_templates.csv",
+src/training/oncopep_training_generation_notebook_export.py:41482:        "/home/data3/Moe/nature_computational2/step9_v1/contextual_support/paper_001_table_s2_candidates.csv",
+src/training/oncopep_training_generation_notebook_export.py:41486:    step8_candidate_pool_file: str = "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_2_candidate_pool_with_flags.csv"
+src/training/oncopep_training_generation_notebook_export.py:41487:    step8_filter_audit_file: str = "/home/data3/Moe/nature_computational2/step8_v1/tables_supplementary/table_s8_1_filter_audit.csv"
+src/training/oncopep_training_generation_notebook_export.py:42852:STEP9_DIR = Path("/home/data3/Moe/nature_computational2/step9_v1")
+src/training/oncopep_training_generation_notebook_export.py:43313:STEP9_DIR = Path("/home/data3/Moe/nature_computational2/step9_v1")
+src/training/oncopep_training_generation_notebook_export.py:43670:STEP9_DIR = Path("/home/data3/Moe/nature_computational2/step9_v1")
+src/training/oncopep_training_generation_notebook_export.py:43682:FILE_REFERENCE_CORPUS = Path("/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv")
+src/training/oncopep_training_generation_notebook_export.py:44279:STEP9_DIR = Path("/home/data3/Moe/nature_computational2/step9_v1")
+src/training/oncopep_training_generation_notebook_export.py:44647:STEP9_DIR = Path("/home/data3/Moe/nature_computational2/step9_v1")
+src/training/oncopep_training_generation_notebook_export.py:44654:FILE_REFERENCE_CORPUS = Path("/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv")
+src/training/oncopep_training_generation_notebook_export.py:44963:BASE = Path('/home/data3/Moe/nature_computational2')
+src/training/oncopep_training_generation_notebook_export.py:45365:BASE = Path('/home/data3/Moe/nature_computational2')
+src/training/oncopep_training_generation_notebook_export.py:45767:BASE = Path('/home/data3/Moe/nature_computational2')
+src/figures/generate_figure4_s13.py:34:    --step8-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08 \
+src/figures/generate_figure4_s13.py:35:    --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/generate_figure4_s13.py:36:    --passed-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv \
+src/figures/generate_figure4_s13.py:37:    --shortlist-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv \
+src/figures/generate_figure4_s13.py:38:    --stability-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv \
+src/figures/generate_figure4_s13.py:39:    --recurrence-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv \
+src/figures/generate_figure4_s13.py:69:DEFAULT_PROJECT_ROOT = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:69:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:1459:    base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:1460:    input_csv="/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:1532:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:1533:INPUT_CSV_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:3003:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:3004:INPUT_CSV_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/OncoPep_merged_clean_labeled4.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:4411:    Path("/home/data3/Moe"),
+src/figures/oncopep_plos_figure_notebook_export.py:4412:    Path("/home/data3/mohamed"),
+src/figures/oncopep_plos_figure_notebook_export.py:4413:    Path("/home/data3"),
+src/figures/oncopep_plos_figure_notebook_export.py:4451:step2_dir = Path("/home/data3/Moe/nature_computational_peponco/step2")
+src/figures/oncopep_plos_figure_notebook_export.py:4493:step2_dir = Path("/home/data3/Moe/nature_computational_peponco/step2")
+src/figures/oncopep_plos_figure_notebook_export.py:4533:    Path("/home/data3/Moe/nature_computational_peponco/step2/tables/step2_split_summary.csv"),
+src/figures/oncopep_plos_figure_notebook_export.py:4534:    Path("/home/data3/Moe/nature_computational_peponco/step1/tables/nature_computational2/step2/tables/step2_split_summary.csv"),
+src/figures/oncopep_plos_figure_notebook_export.py:4560:        source_step2_dir="/home/data3/Moe/nature_computational_peponco/step2",
+src/figures/oncopep_plos_figure_notebook_export.py:4561:        base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:4597:SOURCE_STEP2_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/step2")
+src/figures/oncopep_plos_figure_notebook_export.py:4598:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:5795:        source_step2_dir="/home/data3/Moe/nature_computational_peponco/step2",
+src/figures/oncopep_plos_figure_notebook_export.py:5796:        base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:5833:SOURCE_STEP2_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/step2")
+src/figures/oncopep_plos_figure_notebook_export.py:5834:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:7142:    project_root="/home/data3/Moe/nature_computational2",
+src/figures/oncopep_plos_figure_notebook_export.py:7143:    base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:7179:PROJECT_ROOT_DEFAULT = Path("/home/data3/Moe/nature_computational2")
+src/figures/oncopep_plos_figure_notebook_export.py:7180:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:7487:            Path("/home/data3/Moe/nature_computational_peponco/step2/splits/step2_unique_sequences_with_splits.csv"),
+src/figures/oncopep_plos_figure_notebook_export.py:8704:    project_root="/home/data3/Moe/nature_computational2",
+src/figures/oncopep_plos_figure_notebook_export.py:8705:    base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:8741:PROJECT_ROOT_DEFAULT = Path("/home/data3/Moe/nature_computational2")
+src/figures/oncopep_plos_figure_notebook_export.py:8742:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:9049:            Path("/home/data3/Moe/nature_computational_peponco/step2/splits/step2_unique_sequences_with_splits.csv"),
+src/figures/oncopep_plos_figure_notebook_export.py:10313:PROJECT_ROOT_DEFAULT = Path("/home/data3/Moe/nature_computational2")
+src/figures/oncopep_plos_figure_notebook_export.py:10314:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:10614:        Path("/home/data3/Moe/nature_computational2/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:11541:root = Path("/home/data3/Moe")
+src/figures/oncopep_plos_figure_notebook_export.py:11560:    project_root="/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:11561:    base_dir="/home/data3/Moe/nature_computational_peponco/PLOS",
+src/figures/oncopep_plos_figure_notebook_export.py:11564:    model_ready_file="/home/data3/Moe/nature_computational_peponco/step4/tables/step4_model_ready_sequences.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:11565:    length_summary_file="/home/data3/Moe/nature_computational_peponco/step4/tables/step4_sequence_length_summary.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:11566:    token_summary_file="/home/data3/Moe/nature_computational_peponco/step4/tables/step4_token_coverage_summary.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:11567:    qc_summary_file="/home/data3/Moe/nature_computational_peponco/step4/tables/step4_tokenization_qc.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:11583:/home/data3/Moe/nature_computational_peponco/step4/tables/
+src/figures/oncopep_plos_figure_notebook_export.py:11631:PROJECT_ROOT_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:11632:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:11932:        Path("/home/data3/Moe/nature_computational_peponco/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:11933:        Path("/home/data3/Moe/nature_computational_peponco/redesign/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:11934:        Path("/home/data3/Moe/nature_computational_peponco/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:12887:            "    project_root='/home/data3/Moe/nature_computational_peponco',\n"
+src/figures/oncopep_plos_figure_notebook_export.py:12888:            "    base_dir='/home/data3/Moe/nature_computational_peponco/PLOS',\n"
+src/figures/oncopep_plos_figure_notebook_export.py:12923:/home/data3/Moe/nature_computational_peponco/step4/tables/
+src/figures/oncopep_plos_figure_notebook_export.py:12974:PROJECT_ROOT_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:12975:BASE_DIR_DEFAULT = Path("/home/data3/Moe/nature_computational_peponco/PLOS")
+src/figures/oncopep_plos_figure_notebook_export.py:13275:        Path("/home/data3/Moe/nature_computational_peponco/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:13276:        Path("/home/data3/Moe/nature_computational_peponco/redesign/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:13277:        Path("/home/data3/Moe/nature_computational_peponco/step4/tables") / name,
+src/figures/oncopep_plos_figure_notebook_export.py:14244:  /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_05/
+src/figures/oncopep_plos_figure_notebook_export.py:14429:    project_root: Path = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:15816:    project_root: str | Path = "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:15884:  /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_05/
+src/figures/oncopep_plos_figure_notebook_export.py:16069:    project_root: Path = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:17481:    project_root: str | Path = "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:17566:/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_06/
+src/figures/oncopep_plos_figure_notebook_export.py:17691:        Path("/home/data3/Moe/nature_computational_peponco/step6_v5"),
+src/figures/oncopep_plos_figure_notebook_export.py:17692:        Path("/home/data3/Moe/nature_computational2/step6_v5"),
+src/figures/oncopep_plos_figure_notebook_export.py:17701:    project_root: str | Path = "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:18666:    project_root: str | Path = "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:18801:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:19026:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"
+src/figures/oncopep_plos_figure_notebook_export.py:19028:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:19029:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:19030:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports",
+src/figures/oncopep_plos_figure_notebook_export.py:19031:        "/home/data3/Moe/nature_computational2/step7_v3",
+src/figures/oncopep_plos_figure_notebook_export.py:19032:        "/home/data3/Moe/nature_computational2/step7_v3/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:19033:        "/home/data3/Moe/nature_computational2/step7_v3/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:19034:        "/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:19035:        "/home/data3/Moe/nature_computational2/redesign/step7",
+src/figures/oncopep_plos_figure_notebook_export.py:19036:        "/home/data3/Moe/nature_computational2/redesign/step7/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:19037:        "/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:19038:        "/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:19315:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:20665:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:20731:    parser.add_argument("--step7-root", default="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07")
+src/figures/oncopep_plos_figure_notebook_export.py:20766:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:20830:    Path("/home/data3/Moe/nature_computational2/redesign/step7"),
+src/figures/oncopep_plos_figure_notebook_export.py:20831:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs"),
+src/figures/oncopep_plos_figure_notebook_export.py:20832:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20833:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables"),
+src/figures/oncopep_plos_figure_notebook_export.py:20834:    Path("/home/data3/Moe/nature_computational2/step7_v3"),
+src/figures/oncopep_plos_figure_notebook_export.py:20835:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs"),
+src/figures/oncopep_plos_figure_notebook_export.py:20836:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs/tables"),
+src/figures/oncopep_plos_figure_notebook_export.py:20837:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20839:    Path("/mnt/data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20877:    Path("/home/data3/Moe/nature_computational2/redesign/step7"),
+src/figures/oncopep_plos_figure_notebook_export.py:20878:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs"),
+src/figures/oncopep_plos_figure_notebook_export.py:20879:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs/source_data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20880:    Path("/home/data3/Moe/nature_computational2/redesign/step7/outputs/tables"),
+src/figures/oncopep_plos_figure_notebook_export.py:20881:    Path("/home/data3/Moe/nature_computational2/step7_v3"),
+src/figures/oncopep_plos_figure_notebook_export.py:20882:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs"),
+src/figures/oncopep_plos_figure_notebook_export.py:20883:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs/tables"),
+src/figures/oncopep_plos_figure_notebook_export.py:20884:    Path("/home/data3/Moe/nature_computational2/step7_v3/outputs/source_data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20885:    Path("/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"),
+src/figures/oncopep_plos_figure_notebook_export.py:20886:    Path("/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data"),
+src/figures/oncopep_plos_figure_notebook_export.py:20892:# NOTEBOOK_ONLY_COMMAND: !find /home/data3/Moe -maxdepth 8 -type f \( \
+src/figures/oncopep_plos_figure_notebook_export.py:20902:generated_file = "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:20903:train_file = "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:20917:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:20918:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:20919:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:20965:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:20966:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:20967:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:21135:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"
+src/figures/oncopep_plos_figure_notebook_export.py:21137:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:21138:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:21139:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports",
+src/figures/oncopep_plos_figure_notebook_export.py:21140:        "/home/data3/Moe/nature_computational_peponco/redesign/step7",
+src/figures/oncopep_plos_figure_notebook_export.py:21141:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:21142:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:21143:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:21144:        "/home/data3/Moe/nature_computational_peponco/step7_v3",
+src/figures/oncopep_plos_figure_notebook_export.py:21145:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:21146:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:21147:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:21148:        "/home/data3/Moe/nature_computational_peponco/step8_v1/artifacts",
+src/figures/oncopep_plos_figure_notebook_export.py:21149:        "/mnt/data",
+src/figures/oncopep_plos_figure_notebook_export.py:21366:def discover_any(candidate_names: Sequence[str], roots: Sequence[str], direct_file: Optional[str] = None, required: bool = False, label: str = "file", inventory: Optional[pd.DataFrame] = None, step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07") -> Optional[Path]:
+src/figures/oncopep_plos_figure_notebook_export.py:22280:def run_step7_candidate_audit(step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07", input_roots: Optional[Sequence[str]] = None, generated_file: Optional[str] = None, train_file: Optional[str] = None, final_file: Optional[str] = None, summary_file: Optional[str] = None, funnel_file: Optional[str] = None, reference_quantile_low: float = 0.01, reference_quantile_high: float = 0.99, similarity_low_risk_threshold: float = 0.30, top_n_final: int = 12, show_figures: bool = False, compute_missing_descriptors: bool = True, compute_nn_if_missing: bool = True, max_nn_pairs: int = 3_000_000) -> Dict[str, object]:
+src/figures/oncopep_plos_figure_notebook_export.py:22308:    parser.add_argument("--step7-root", default="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07")
+src/figures/oncopep_plos_figure_notebook_export.py:22343:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:22344:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22345:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22374:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:22375:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22376:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22422:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:22423:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22424:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:22592:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"
+src/figures/oncopep_plos_figure_notebook_export.py:22594:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:22595:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:22596:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/reports",
+src/figures/oncopep_plos_figure_notebook_export.py:22597:        "/home/data3/Moe/nature_computational_peponco/redesign/step7",
+src/figures/oncopep_plos_figure_notebook_export.py:22598:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:22599:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:22600:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:22601:        "/home/data3/Moe/nature_computational_peponco/step7_v3",
+src/figures/oncopep_plos_figure_notebook_export.py:22602:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs",
+src/figures/oncopep_plos_figure_notebook_export.py:22603:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:22604:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:22605:        "/home/data3/Moe/nature_computational_peponco/step8_v1/artifacts",
+src/figures/oncopep_plos_figure_notebook_export.py:22606:        "/mnt/data",
+src/figures/oncopep_plos_figure_notebook_export.py:22829:def discover_any(candidate_names: Sequence[str], roots: Sequence[str], direct_file: Optional[str] = None, required: bool = False, label: str = "file", inventory: Optional[pd.DataFrame] = None, step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07") -> Optional[Path]:
+src/figures/oncopep_plos_figure_notebook_export.py:24118:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:24175:    parser.add_argument("--step7-root", default="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07")
+src/figures/oncopep_plos_figure_notebook_export.py:24214:    step7_root="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:24215:    generated_file="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:24216:    train_file="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:24281:STEP7_ROOT = Path("/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07").resolve()
+src/figures/oncopep_plos_figure_notebook_export.py:24284:    "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/"
+src/figures/oncopep_plos_figure_notebook_export.py:24289:    "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/"
+src/figures/oncopep_plos_figure_notebook_export.py:24327:        Path("/mnt/data/OncoPep_step7_PLOS_candidate_audit_v9_sequential_ready.py"),
+src/figures/oncopep_plos_figure_notebook_export.py:24469:  --step7-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07 \
+src/figures/oncopep_plos_figure_notebook_export.py:24470:  --generated-file /home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:24471:  --train-file /home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv
+src/figures/oncopep_plos_figure_notebook_export.py:24685:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"
+src/figures/oncopep_plos_figure_notebook_export.py:24687:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:24688:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:24689:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:24690:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:24691:        "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:24692:        "/mnt/data",
+src/figures/oncopep_plos_figure_notebook_export.py:24695:    generated_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:24696:    train_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:26107:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:26109:    generated_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:26110:    train_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:26148:    parser.add_argument("--step7-root", default="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07")
+src/figures/oncopep_plos_figure_notebook_export.py:26150:    parser.add_argument("--generated-file", default="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:26151:    parser.add_argument("--train-file", default="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:26237:  --step7-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07 \
+src/figures/oncopep_plos_figure_notebook_export.py:26238:  --generated-file /home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:26239:  --train-file /home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv
+src/figures/oncopep_plos_figure_notebook_export.py:26453:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07"
+src/figures/oncopep_plos_figure_notebook_export.py:26455:        "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:26456:        "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:26457:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables",
+src/figures/oncopep_plos_figure_notebook_export.py:26458:        "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/source_data",
+src/figures/oncopep_plos_figure_notebook_export.py:26459:        "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:26460:        "/mnt/data",
+src/figures/oncopep_plos_figure_notebook_export.py:26463:    generated_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:26464:    train_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:27854:    step7_root: str = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07",
+src/figures/oncopep_plos_figure_notebook_export.py:27856:    generated_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:27857:    train_file: Optional[str] = "/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:27895:    parser.add_argument("--step7-root", default="/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_07")
+src/figures/oncopep_plos_figure_notebook_export.py:27897:    parser.add_argument("--generated-file", default="/home/data3/Moe/nature_computational_peponco/redesign/step7/outputs/source_data/SuppFig_step7_property_generated_final_v7_source_data.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:27898:    parser.add_argument("--train-file", default="/home/data3/Moe/nature_computational_peponco/step7_v3/outputs/tables/step7_train_reference_annotated.csv")
+src/figures/oncopep_plos_figure_notebook_export.py:27971:    --step8-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08 \
+src/figures/oncopep_plos_figure_notebook_export.py:27972:    --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/oncopep_plos_figure_notebook_export.py:27973:    --passed-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:27974:    --shortlist-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:27975:    --stability-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:27976:    --recurrence-file /home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv \
+src/figures/oncopep_plos_figure_notebook_export.py:28006:DEFAULT_PROJECT_ROOT = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:29515:    "--step8-root", "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08",
+src/figures/oncopep_plos_figure_notebook_export.py:29516:    "--project-root", "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:29517:    "--passed-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:29518:    "--shortlist-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:29519:    "--stability-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:29520:    "--recurrence-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:29584:DEFAULT_PROJECT_ROOT = Path("/home/data3/Moe/nature_computational_peponco")
+src/figures/oncopep_plos_figure_notebook_export.py:30921:    "--step8-root", "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_08",
+src/figures/oncopep_plos_figure_notebook_export.py:30922:    "--project-root", "/home/data3/Moe/nature_computational_peponco",
+src/figures/oncopep_plos_figure_notebook_export.py:30923:    "--passed-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_12_full_ranked_passed_pool.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:30924:    "--shortlist-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_main/table_8_1_shortlist_main.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:30925:    "--stability-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_5_ranking_scheme_stability.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:30926:    "--recurrence-file", "/home/data3/Moe/nature_computational_peponco/step8_v1/tables_supplementary/table_s8_6_candidate_recurrence_across_schemes.csv",
+src/figures/oncopep_plos_figure_notebook_export.py:30976:  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \
+src/figures/oncopep_plos_figure_notebook_export.py:30977:  --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/oncopep_plos_figure_notebook_export.py:30978:  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1
+src/figures/oncopep_plos_figure_notebook_export.py:31015:DEFAULT_STEP9_ROOT = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09"
+src/figures/oncopep_plos_figure_notebook_export.py:31016:DEFAULT_PROJECT_ROOT = "/home/data3/Moe/nature_computational_peponco"
+src/figures/oncopep_plos_figure_notebook_export.py:31017:DEFAULT_LEGACY_STEP9_ROOT = "/home/data3/Moe/nature_computational2/step9_v1"
+src/figures/oncopep_plos_figure_notebook_export.py:31018:DEFAULT_LEGACY_REFERENCE = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:32201:  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \
+src/figures/oncopep_plos_figure_notebook_export.py:32202:  --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/oncopep_plos_figure_notebook_export.py:32203:  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1
+src/figures/oncopep_plos_figure_notebook_export.py:32240:DEFAULT_STEP9_ROOT = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09"
+src/figures/oncopep_plos_figure_notebook_export.py:32241:DEFAULT_PROJECT_ROOT = "/home/data3/Moe/nature_computational_peponco"
+src/figures/oncopep_plos_figure_notebook_export.py:32242:DEFAULT_LEGACY_STEP9_ROOT = "/home/data3/Moe/nature_computational2/step9_v1"
+src/figures/oncopep_plos_figure_notebook_export.py:32243:DEFAULT_LEGACY_REFERENCE = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:33459:  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \
+src/figures/oncopep_plos_figure_notebook_export.py:33460:  --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/oncopep_plos_figure_notebook_export.py:33461:  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1
+src/figures/oncopep_plos_figure_notebook_export.py:33498:DEFAULT_STEP9_ROOT = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09"
+src/figures/oncopep_plos_figure_notebook_export.py:33499:DEFAULT_PROJECT_ROOT = "/home/data3/Moe/nature_computational_peponco"
+src/figures/oncopep_plos_figure_notebook_export.py:33500:DEFAULT_LEGACY_STEP9_ROOT = "/home/data3/Moe/nature_computational2/step9_v1"
+src/figures/oncopep_plos_figure_notebook_export.py:33501:DEFAULT_LEGACY_REFERENCE = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"
+src/figures/oncopep_plos_figure_notebook_export.py:34734:        "/home/data3/Moe/nature_computational_peponco"
+src/figures/oncopep_plos_figure_notebook_export.py:34737:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:34742:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:34747:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:34751:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:34755:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:34760:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36573:        "/home/data3/Moe/nature_computational_peponco"
+src/figures/oncopep_plos_figure_notebook_export.py:36576:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36581:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36586:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36590:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36594:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/oncopep_plos_figure_notebook_export.py:36599:        "/home/data3/Moe/nature_computational_peponco/"
+src/figures/generate_figure5_s14.py:51:  --step9-root /home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09 \
+src/figures/generate_figure5_s14.py:52:  --project-root /home/data3/Moe/nature_computational_peponco \
+src/figures/generate_figure5_s14.py:53:  --legacy-step9-root /home/data3/Moe/nature_computational2/step9_v1
+src/figures/generate_figure5_s14.py:90:DEFAULT_STEP9_ROOT = "/home/data3/Moe/nature_computational_peponco/PLOS/plos_comp/step_09"
+src/figures/generate_figure5_s14.py:91:DEFAULT_PROJECT_ROOT = "/home/data3/Moe/nature_computational_peponco"
+src/figures/generate_figure5_s14.py:92:DEFAULT_LEGACY_STEP9_ROOT = "/home/data3/Moe/nature_computational2/step9_v1"
+src/figures/generate_figure5_s14.py:93:DEFAULT_LEGACY_REFERENCE = "/home/data3/Moe/nature_computational2/step1/tables/step1_retained_dataset.csv"

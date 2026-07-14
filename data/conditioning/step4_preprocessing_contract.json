@@ -1,0 +1,173 @@
+{
+  "step": 4,
+  "description": "Split-safe residue-level tokenization and model-ready preprocessing",
+  "input_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv",
+  "columns": {
+    "sequence_col": "sequence",
+    "hash_col": "sequence_sha256",
+    "split_col": "assigned_split",
+    "primary_condition_id_col": "primary_condition_id",
+    "component::length_bin": "length_bin",
+    "component::net_charge_pH7_bin": "net_charge_pH7_bin",
+    "component::hydrophobicity_KD_bin": "hydrophobicity_KD_bin",
+    "numeric::length": "length",
+    "numeric::net_charge_pH7": "net_charge_pH7",
+    "numeric::hydrophobicity_KD": "hydrophobicity_KD",
+    "numeric::entropy": "entropy",
+    "numeric::dominant_aa_frac": "dominant_aa_frac"
+  },
+  "allowed_aas": "ACDEFGHIKLMNPQRSTVWY",
+  "vocab_size": 24,
+  "length_policy": {
+    "policy": "train_exact_max",
+    "train_length_percentile": 99.5,
+    "train_max_sequence_length": 60,
+    "chosen_max_sequence_length": 60,
+    "max_model_length_including_special_tokens": 62
+  },
+  "baseline_feature_columns": [
+    "aa_frac_A",
+    "aa_frac_C",
+    "aa_frac_D",
+    "aa_frac_E",
+    "aa_frac_F",
+    "aa_frac_G",
+    "aa_frac_H",
+    "aa_frac_I",
+    "aa_frac_K",
+    "aa_frac_L",
+    "aa_frac_M",
+    "aa_frac_N",
+    "aa_frac_P",
+    "aa_frac_Q",
+    "aa_frac_R",
+    "aa_frac_S",
+    "aa_frac_T",
+    "aa_frac_V",
+    "aa_frac_W",
+    "aa_frac_Y",
+    "length",
+    "net_charge_pH7",
+    "hydrophobicity_KD",
+    "entropy",
+    "dominant_aa_frac"
+  ],
+  "normalization_keys": [
+    "aa_frac_A",
+    "aa_frac_C",
+    "aa_frac_D",
+    "aa_frac_E",
+    "aa_frac_F",
+    "aa_frac_G",
+    "aa_frac_H",
+    "aa_frac_I",
+    "aa_frac_K",
+    "aa_frac_L",
+    "aa_frac_M",
+    "aa_frac_N",
+    "aa_frac_P",
+    "aa_frac_Q",
+    "aa_frac_R",
+    "aa_frac_S",
+    "aa_frac_T",
+    "aa_frac_V",
+    "aa_frac_W",
+    "aa_frac_Y",
+    "dominant_aa_frac",
+    "entropy",
+    "hydrophobicity_KD",
+    "length",
+    "net_charge_pH7"
+  ],
+  "config": {
+    "input_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step3/tables/step3_conditioned_unique_sequences.csv",
+    "out_dir_name": "step4",
+    "project_root_override": null,
+    "sequence_col": "sequence",
+    "hash_col": "sequence_sha256",
+    "split_col": "assigned_split",
+    "primary_condition_id_col": "primary_condition_id",
+    "primary_condition_component_candidates": {
+      "length_bin": [
+        "length_bin"
+      ],
+      "net_charge_pH7_bin": [
+        "net_charge_pH7_bin",
+        "charge_bin"
+      ],
+      "hydrophobicity_KD_bin": [
+        "hydrophobicity_KD_bin",
+        "hydrophobicity_bin"
+      ]
+    },
+    "numeric_descriptor_candidates": {
+      "length": [
+        "length",
+        "seq_length",
+        "peptide_length"
+      ],
+      "net_charge_pH7": [
+        "net_charge_pH7",
+        "net_charge",
+        "charge",
+        "charge_pH7"
+      ],
+      "hydrophobicity_KD": [
+        "hydrophobicity_KD",
+        "hydrophobicity",
+        "hydrophobicity_kd"
+      ],
+      "entropy": [
+        "entropy",
+        "shannon_entropy",
+        "sequence_entropy"
+      ],
+      "dominant_aa_frac": [
+        "dominant_aa_frac",
+        "dominant_aa_fraction",
+        "dominant_residue_fraction"
+      ]
+    },
+    "allowed_aas": "ACDEFGHIKLMNPQRSTVWY",
+    "pad_token": "<PAD>",
+    "bos_token": "<BOS>",
+    "eos_token": "<EOS>",
+    "unk_token": "<UNK>",
+    "max_length_policy": "train_exact_max",
+    "train_length_percentile": 99.5,
+    "min_allowed_max_model_length": 8,
+    "enforce_no_truncation_in_final": true,
+    "include_baseline_composition": true,
+    "include_numeric_descriptors_in_baseline": true,
+    "normalize_numeric_features": true,
+    "random_seed": 42,
+    "fail_on_invalid_residues": true,
+    "fail_on_missing_primary_condition_id": true,
+    "fail_on_duplicate_hashes": false,
+    "low_memory": false,
+    "png_dpi": 300,
+    "tif_dpi": 600,
+    "font_family": "sans-serif",
+    "font_list": [
+      "Arial",
+      "Helvetica",
+      "DejaVu Sans"
+    ],
+    "font_size": 8,
+    "title_size": 9,
+    "axis_label_size": 8,
+    "tick_label_size": 8,
+    "axis_linewidth": 0.9,
+    "colors": {
+      "train": "#4E79A7",
+      "val": "#F28E2B",
+      "test": "#E15759",
+      "gray": "#707070",
+      "black": "#111111",
+      "grid": "#E6E6E6",
+      "green": "#59A14F",
+      "purple": "#B07AA1",
+      "blue2": "#76B7B2"
+    }
+  }
+}

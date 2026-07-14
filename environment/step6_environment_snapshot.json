@@ -1,0 +1,10 @@
+{
+  "python_version": "3.10.20",
+  "platform": "Linux-6.8.0-106-generic-x86_64-with-glibc2.35",
+  "torch_version": "2.6.0+cu124",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3",
+  "matplotlib_version": "3.10.8"
+}

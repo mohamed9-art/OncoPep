@@ -1,0 +1,10 @@
+audit_type,split_a,split_b,n_overlap,n_sampled_pairs,max_jaccard,mean_jaccard,threshold
+exact_sequence_overlap,train,val,0.0,,,,
+exact_sequence_overlap,train,test,0.0,,,,
+exact_sequence_overlap,val,test,0.0,,,,
+cluster_overlap,train,val,0.0,,,,
+cluster_overlap,train,test,0.0,,,,
+cluster_overlap,val,test,0.0,,,,
+sampled_cross_split_jaccard,train,val,,3000.0,0.17073170731707318,0.003003704167834684,0.55
+sampled_cross_split_jaccard,train,test,,3000.0,0.3,0.0029045694800606484,0.55
+sampled_cross_split_jaccard,val,test,,3000.0,0.3018867924528302,0.003630200426170342,0.55

@@ -1,0 +1,46 @@
+{
+  "primary_condition_id": {
+    "length=high|net_charge_pH7=high|hydrophobicity_KD=high": 0,
+    "length=high|net_charge_pH7=high|hydrophobicity_KD=low": 1,
+    "length=high|net_charge_pH7=high|hydrophobicity_KD=mid": 2,
+    "length=high|net_charge_pH7=low|hydrophobicity_KD=high": 3,
+    "length=high|net_charge_pH7=low|hydrophobicity_KD=low": 4,
+    "length=high|net_charge_pH7=low|hydrophobicity_KD=mid": 5,
+    "length=high|net_charge_pH7=mid|hydrophobicity_KD=high": 6,
+    "length=high|net_charge_pH7=mid|hydrophobicity_KD=low": 7,
+    "length=high|net_charge_pH7=mid|hydrophobicity_KD=mid": 8,
+    "length=low|net_charge_pH7=high|hydrophobicity_KD=high": 9,
+    "length=low|net_charge_pH7=high|hydrophobicity_KD=low": 10,
+    "length=low|net_charge_pH7=high|hydrophobicity_KD=mid": 11,
+    "length=low|net_charge_pH7=low|hydrophobicity_KD=high": 12,
+    "length=low|net_charge_pH7=low|hydrophobicity_KD=low": 13,
+    "length=low|net_charge_pH7=low|hydrophobicity_KD=mid": 14,
+    "length=low|net_charge_pH7=mid|hydrophobicity_KD=high": 15,
+    "length=low|net_charge_pH7=mid|hydrophobicity_KD=low": 16,
+    "length=low|net_charge_pH7=mid|hydrophobicity_KD=mid": 17,
+    "length=mid|net_charge_pH7=high|hydrophobicity_KD=high": 18,
+    "length=mid|net_charge_pH7=high|hydrophobicity_KD=low": 19,
+    "length=mid|net_charge_pH7=high|hydrophobicity_KD=mid": 20,
+    "length=mid|net_charge_pH7=low|hydrophobicity_KD=high": 21,
+    "length=mid|net_charge_pH7=low|hydrophobicity_KD=low": 22,
+    "length=mid|net_charge_pH7=low|hydrophobicity_KD=mid": 23,
+    "length=mid|net_charge_pH7=mid|hydrophobicity_KD=high": 24,
+    "length=mid|net_charge_pH7=mid|hydrophobicity_KD=low": 25,
+    "length=mid|net_charge_pH7=mid|hydrophobicity_KD=mid": 26
+  },
+  "length_bin": {
+    "high": 0,
+    "low": 1,
+    "mid": 2
+  },
+  "net_charge_pH7_bin": {
+    "high": 0,
+    "low": 1,
+    "mid": 2
+  },
+  "hydrophobicity_KD_bin": {
+    "high": 0,
+    "low": 1,
+    "mid": 2
+  }
+}

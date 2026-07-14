@@ -1,0 +1,6 @@
+{
+  "input_model_ready_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_model_ready_sequences.csv",
+  "input_baseline_features_csv": "/home/data3/mohamed/peponco/clean dataset/nature_computational2/step4/tables/step4_baseline_features.csv",
+  "sha256_model_ready": "a3b20d840b8f889236beddc3d6de308f8caa4a0ffac99460dfa6b9139057552b",
+  "sha256_baseline_features": "63773b47e43b57f4f7b926b582cd031515f16068f02a524b6bc9a74f07af0976"
+}

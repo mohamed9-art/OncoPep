@@ -1,0 +1,4 @@
+split,n_rows,n_unique_sequences,n_clusters
+train,24485,24485,24102
+val,13260,13260,2592
+test,13260,13260,2337
