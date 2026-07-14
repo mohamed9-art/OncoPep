@@ -8,13 +8,11 @@ This repository provides the processed data, figure-level source-data tables, co
 
 ---
 
-## Archived release
+## Releases and archival
 
-The OncoPep version series is archived at Zenodo under the concept DOI:
+The previous public OncoPep release, v1.0.1, is archived in Zenodo under the version-specific DOI `10.5281/zenodo.21311557`. This record is retained as an immutable archive of the earlier release.
 
-**Concept DOI:** 10.5281/zenodo.21311556
-
----
+The corrected reproducibility-complete package is designated release v1.0.2. Its version-specific Zenodo DOI will be added after the GitHub release has been published and archived by Zenodo.
 
 ## Important scientific note
 
@@ -162,21 +160,13 @@ pip install -r requirements.txt
 
 ## Data and code availability
 
-The OncoPep GitHub repository is available at:
+The OncoPep repository is available at:
 
-```text
-https://github.com/mohamed9-art/OncoPep
-```
+`https://github.com/mohamed9-art/OncoPep`
 
-The Zenodo version series is available at:
+Release v1.0.2 contains the author-generated source code and configuration files, processed and derived peptide data, frozen sequence-hash partition assignments, conditioning metadata, generated-sequence outputs, generator-benchmarking and similarity-audit results, candidate-prioritization outputs, figure-level source data, computational-environment files, run manifests, checksums, and reproducibility documentation.
 
-```text
-https://doi.org/10.5281/zenodo.21311556
-```
-
-This repository contains code, configuration files, processed data, figure-level source-data files, benchmark outputs, candidate-prioritization outputs, and documentation supporting the analyses reported in the manuscript.
-
----
+Author-generated software is distributed under the MIT License. Raw third-party peptide records are not redistributed where redistribution is restricted by the terms of the original databases.
 
 ## Final candidate panel
 
@@ -188,13 +178,7 @@ The final candidate panel is intended to guide future experimental testing. It s
 
 ## Citation
 
-If you use this repository, please cite the associated OncoPep manuscript and the archived Zenodo release:
-
-```text
-Aldaw M. OncoPep: reproducibility package for leakage-aware property-conditioned generation and prioritization of anticancer peptide-oriented sequences. Version v1.0.2. Zenodo concept DOI: 10.5281/zenodo.21311556.
-```
-
----
+Please cite the associated OncoPep manuscript and the versioned Zenodo archive. The version-specific DOI for release v1.0.2 will be added after Zenodo archives the published GitHub release.
 
 ## License
 
@@ -206,8 +190,8 @@ Processed data and source-data files are provided for academic reproducibility o
 
 ## Contact
 
-Mohamed Aldaw  
-Center of Bioinformatics  
-College of Life Sciences  
-Northwest A&F University  
+Mohamed Aldaw
+Center of Bioinformatics
+College of Life Sciences
+Northwest A&F University
 GitHub: https://github.com/mohamed9-art
