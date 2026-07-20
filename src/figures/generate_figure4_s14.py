@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-OncoPep Step 9 — PLOS Computational Biology Figure 5 rescue script.
+OncoPep Step 9 — PLOS Computational Biology Figure 4 rescue script.
 
 Scientific role
 ---------------
@@ -11,7 +11,7 @@ and prioritization-score panels.
 
 Main figure
 -----------
-Figure 5. Contextual similarity and compositional support of the final
+Figure 4. Contextual similarity and compositional support of the final
 OncoPep panel.
   A. NN similarity context
   B. Similarity summary
@@ -36,7 +36,7 @@ Design decisions
 - Uses uppercase panel labels, OncoPep/PLOS palette, source-data exports,
   manifest, README, requirements, code snapshot, and readiness reporting.
 - Implements the approved panel swap: residue-category context is used as
-  main Figure 5C.
+  main Figure 4C.
 - Generates Supplementary Figure S14 as a two-panel composition figure by
   default whenever amino-acid and k-mer enrichment data can be loaded or computed.
 - Centers Supplementary Figure S14 panel titles and assigns a unique restrained
@@ -686,7 +686,7 @@ def write_pairwise_source_and_heatmap(
     return mat
 
 
-def plot_figure5(
+def plot_figure4(
     final_df: pd.DataFrame,
     pairwise: pd.DataFrame,
     reference_df: pd.DataFrame,
@@ -694,7 +694,7 @@ def plot_figure5(
     out_base: Path,
     dpi: int,
 ) -> Dict[str, str]:
-    """Generate final Figure 5 after approved panel swap.
+    """Generate final Figure 4 after approved panel swap.
 
     Final structure:
       A. NN similarity context
@@ -717,24 +717,24 @@ def plot_figure5(
         pd.DataFrame({"context": "Reference context", "nearest_neighbor_similarity": ref_vals}),
         pd.DataFrame({"context": "Final-panel context", "nearest_neighbor_similarity": cand_vals}),
     ], ignore_index=True)
-    panel_a_df.to_csv(source_data_dir / "Figure_5_panel_a_source_data.csv", index=False)
+    panel_a_df.to_csv(source_data_dir / "Figure_4_panel_a_source_data.csv", index=False)
 
     panel_b_rows = []
     for _, r in summary_df.iterrows():
         for metric in ["median", "p90", "max"]:
             panel_b_rows.append({"context": r["context"], "summary_metric": metric, "similarity": r[metric], "n": r["n"]})
     panel_b_df = pd.DataFrame(panel_b_rows)
-    panel_b_df.to_csv(source_data_dir / "Figure_5_panel_b_source_data.csv", index=False)
+    panel_b_df.to_csv(source_data_dir / "Figure_4_panel_b_source_data.csv", index=False)
 
     cat_df = residue_category_df(final_df, reference_df)
-    cat_df.to_csv(source_data_dir / "Figure_5_panel_c_source_data.csv", index=False)
+    cat_df.to_csv(source_data_dir / "Figure_4_panel_c_source_data.csv", index=False)
 
     combined = pd.concat([
-        panel_a_df.assign(panel="Figure_5A"),
-        panel_b_df.assign(panel="Figure_5B"),
-        cat_df.assign(panel="Figure_5C"),
+        panel_a_df.assign(panel="Figure_4A"),
+        panel_b_df.assign(panel="Figure_4B"),
+        cat_df.assign(panel="Figure_4C"),
     ], ignore_index=True, sort=False)
-    combined.to_csv(source_data_dir / "Figure_5_source_data_all_panels.csv", index=False)
+    combined.to_csv(source_data_dir / "Figure_4_source_data_all_panels.csv", index=False)
 
     fig = plt.figure(figsize=(15.8, 5.15))
     gs = GridSpec(1, 3, figure=fig, width_ratios=[0.88, 0.92, 1.10], wspace=0.50)
@@ -932,7 +932,7 @@ def plot_supplementary_s14(
     return save_multi(fig, out_base, dpi=dpi)
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Generate OncoPep Step 9 Figure 5 and Supplementary Figure S14.", allow_abbrev=False)
+    p = argparse.ArgumentParser(description="Generate OncoPep Step 9 Figure 4 and Supplementary Figure S14.", allow_abbrev=False)
     p.add_argument("--step9-root", default=DEFAULT_STEP9_ROOT)
     p.add_argument("--project-root", default=DEFAULT_PROJECT_ROOT)
     p.add_argument("--legacy-step9-root", default=DEFAULT_LEGACY_STEP9_ROOT)
@@ -1102,7 +1102,7 @@ def write_reports(dirs: OutputDirs, checks: List[CheckResult], discovery: List[D
     readme = dirs.reports / "README_step9_outputs.txt"
     readme.write_text(
         f"OncoPep Step 9 output package\nScript version: {SCRIPT_VERSION}\n\n"
-        "Main Figure 5: contextual similarity support and internal diversity of the final OncoPep panel.\n"
+        "Main Figure 4: contextual similarity support and internal diversity of the final OncoPep panel.\n"
         "Supplementary Figure S14: compositional context of the final OncoPep panel.\n\n"
         "This package intentionally excludes Step 8 selection-audit/prioritization score-shift panels.\n",
         encoding="utf-8",
@@ -1152,13 +1152,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     # Check post-preparation fatal conditions
     if final_df["nearest_reference_similarity"].isna().all():
-        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 5A cannot be plotted: nearest-reference similarity unavailable."))
+        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 4A cannot be plotted: nearest-reference similarity unavailable."))
     if final_df["nearest_paper_candidate_similarity"].isna().all():
-        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 5A/B cannot be plotted: candidate-context similarity unavailable."))
+        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 4A/B cannot be plotted: candidate-context similarity unavailable."))
     if pairwise.shape[0] < 2:
         checks.append(CheckResult("plot_readiness", "FAIL", "Pairwise internal-diversity source data cannot be summarized: pairwise matrix has fewer than two candidates."))
     if reference_df is None:
-        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 5C cannot be plotted: reference corpus is required for residue-category context."))
+        checks.append(CheckResult("plot_readiness", "FAIL", "Figure 4C cannot be plotted: reference corpus is required for residue-category context."))
 
     # Save prepared final panel and matrix
     final_df.to_csv(dirs.source_data / "step9_final_panel_similarity_context_table.csv", index=False)
@@ -1174,17 +1174,17 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print("ERROR:", msg, file=sys.stderr)
         return 2
 
-    fig5_files = plot_figure5(
+    fig5_files = plot_figure4(
         final_df=final_df,
         pairwise=pairwise,
         reference_df=reference_df,
         source_data_dir=dirs.source_data,
-        out_base=dirs.main_figure / "Figure_5_contextual_similarity_diversity",
+        out_base=dirs.main_figure / "Figure_4_contextual_similarity_diversity",
         dpi=args.dpi,
     )
     for k, v in fig5_files.items():
-        files[f"Figure_5_{k}"] = v
-    checks.append(CheckResult("Figure_5", "PASS", "Generated redesigned Figure 5 with contextual NN similarity, NN summary, and residue-category context."))
+        files[f"Figure_4_{k}"] = v
+    checks.append(CheckResult("Figure_4", "PASS", "Generated redesigned Figure 4 with contextual NN similarity, NN summary, and residue-category context."))
 
     if not args.no_supplementary:
         if reference_df is not None and aa_df is not None and km_df is not None:
@@ -1247,7 +1247,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print("\nOncoPep Step 9 package generated.")
         print(f"Root: {dirs.root}")
         print(f"Readiness status: {status}; estimated score: {score}/100")
-        print(f"Main figure: {files.get('Figure_5_png')}")
+        print(f"Main figure: {files.get('Figure_4_png')}")
         if "Supplementary_Figure_S14_png" in files:
             print(f"Supplementary figure: {files.get('Supplementary_Figure_S14_png')}")
         print(f"Readiness report: {files.get('readiness_report')}")

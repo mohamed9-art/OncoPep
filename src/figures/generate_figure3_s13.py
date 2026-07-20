@@ -12,16 +12,16 @@ Scientific role:
   figures. Descriptor distributions are exported only as source-data/report tables.
 
 Generates:
-  Fig 4. Multi-objective prioritization of generated OncoPep candidates.
+  Fig 3. Multi-objective prioritization of generated OncoPep candidates.
   S13 Fig. Robustness of prioritization schemes.
 
 Key v8 improvements:
   - Jupyter-safe argument parsing: no -f kernel.json contamination.
   - Safe role-aware discovery: no /run/user, kernel JSON, audit/count files.
-  - Figure 4A: clearer prioritization-stage reduction with final-stage callout.
-  - Figure 4B: includes condition fidelity if available; otherwise documents omission.
-  - Figure 4B/C: IQR error bars are explicitly plotted and exported.
-  - Figure 4C: n values are moved to x-axis labels, not inside bars.
+  - Figure 3A: clearer prioritization-stage reduction with final-stage callout.
+  - Figure 3B: includes condition fidelity if available; otherwise documents omission.
+  - Figure 3B/C: IQR error bars are explicitly plotted and exported.
+  - Figure 3C: n values are moved to x-axis labels, not inside bars.
   - S13A: Primary-first order, full scheme labels, diagonal de-emphasized.
   - S13B: denominator and percentages are added.
   - Full PLOS-style output package with source data, reports, manifest, README,
@@ -627,14 +627,14 @@ def load_inputs(args: argparse.Namespace, inputs: InputPaths) -> Tuple[Dict[str,
     if "eligible_df" not in data:
         data["eligible_df"] = data["passed_df"].copy()
         if args.eligible_count is not None:
-            checks.append(CheckResult("eligible_df", "INFO", "No QC-passed table supplied; count override used for Fig 4A and passed_df used only for row-level placeholder summaries."))
+            checks.append(CheckResult("eligible_df", "INFO", "No QC-passed table supplied; count override used for Fig 3A and passed_df used only for row-level placeholder summaries."))
         else:
             checks.append(CheckResult("eligible_df", "WARN", "No valid QC-passed table supplied; using passed_df for row-level summaries."))
 
     if "gen_df" not in data:
         data["gen_df"] = data["passed_df"].copy()
         if args.generated_count is not None:
-            checks.append(CheckResult("gen_df", "INFO", "No generated table supplied; count override used for Fig 4A and passed_df used only for row-level placeholder summaries."))
+            checks.append(CheckResult("gen_df", "INFO", "No generated table supplied; count override used for Fig 3A and passed_df used only for row-level placeholder summaries."))
         else:
             checks.append(CheckResult("gen_df", "WARN", "No generated table supplied; using passed_df for row-level summaries."))
 
@@ -1040,7 +1040,7 @@ def metric_xtick_label(label: str) -> str:
     }
     return mapping.get(str(label), str(label).replace(" ", "\n"))
 
-def plot_figure4(
+def plot_figure3(
     counts: pd.DataFrame,
     support_summary: pd.DataFrame,
     final_score_sum: pd.DataFrame,
@@ -1267,24 +1267,24 @@ def plot_s13(
 def build_panel_mapping() -> pd.DataFrame:
     return pd.DataFrame([
         {
-            "figure": "Fig 4",
+            "figure": "Fig 3",
             "panel": "A",
             "title": "Prioritization-stage reduction",
-            "source_data_file": "Figure_4_panel_a_source_data.csv",
+            "source_data_file": "Figure_3_panel_a_source_data.csv",
             "description": "Counts, percentages, and count provenance for each prioritization stage.",
         },
         {
-            "figure": "Fig 4",
+            "figure": "Fig 3",
             "panel": "B",
             "title": "Multi-objective support scores",
-            "source_data_file": "Figure_4_panel_b_source_data.csv",
+            "source_data_file": "Figure_3_panel_b_source_data.csv",
             "description": "Median component scores with IQR across prioritization stages. Condition fidelity included when available.",
         },
         {
-            "figure": "Fig 4",
+            "figure": "Fig 3",
             "panel": "C",
             "title": "Composite-score enrichment",
-            "source_data_file": "Figure_4_panel_c_source_data.csv",
+            "source_data_file": "Figure_3_panel_c_source_data.csv",
             "description": "Median composite/final score with IQR across prioritization stages.",
         },
         {
@@ -1342,13 +1342,13 @@ def write_reports(
     report.append("Step 8 supports multi-objective prioritization and prioritization robustness. It does not assess anticancer activity, selectivity, toxicity, stability, receptor binding, or therapeutic efficacy.\n\n")
 
     report.append("## Figure logic improvements in this run\n\n")
-    report.append("- Fig 4A uses log-scale prioritization-stage reduction and emphasizes the descriptor-plausible to shortlist/final compression.\n")
-    report.append("- Fig 4B plots descriptive medians with IQR error bars. Condition fidelity is included only if a numeric condition-fidelity or condition-match column is available in all prioritization stages.\n")
-    report.append("- Fig 4C reports composite-score enrichment with sample sizes in x-axis labels, not inside bars.\n")
+    report.append("- Fig 3A uses log-scale prioritization-stage reduction and emphasizes the descriptor-plausible to shortlist/final compression.\n")
+    report.append("- Fig 3B plots descriptive medians with IQR error bars. Condition fidelity is included only if a numeric condition-fidelity or condition-match column is available in all prioritization stages.\n")
+    report.append("- Fig 3C reports composite-score enrichment with sample sizes in x-axis labels, not inside bars.\n")
     report.append("- S13A places the primary ranking first, uses complete scheme labels, and de-emphasizes diagonal self-overlap.\n")
     report.append("- S13B reports candidate recurrence as counts and percentages with an explicit denominator.\n\n")
 
-    report.append("## Component metrics plotted in Fig 4B\n\n")
+    report.append("## Component metrics plotted in Fig 3B\n\n")
     for col, lab in component_metrics:
         report.append(f"- {lab}: `{col}`\n")
     if not any(col == "condition_fidelity_score" for col, _ in component_metrics):
@@ -1402,9 +1402,9 @@ It does not assess anticancer activity, selectivity, toxicity, stability, recept
 
 ## Main outputs
 
-- main_figure/Figure_4_prioritization_redesigned.png/pdf/tiff
+- main_figure/Figure_3_prioritization_redesigned.png/pdf/tiff
 - supplementary_figures/Supplementary_Figure_S13_prioritization_robustness_redesigned.png/pdf/tiff
-- source_data/Figure_4_* and Supplementary_Figure_S13_*
+- source_data/Figure_3_* and Supplementary_Figure_S13_*
 - reports/step8_readiness_report.md
 - reports/step8_manifest.json
 
@@ -1511,9 +1511,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     files: Dict[str, str] = {}
 
     main_sources = {
-        "Figure_4_panel_a_source_data": counts,
-        "Figure_4_panel_b_source_data": support_summary,
-        "Figure_4_panel_c_source_data": final_summary,
+        "Figure_3_panel_a_source_data": counts,
+        "Figure_3_panel_b_source_data": support_summary,
+        "Figure_3_panel_c_source_data": final_summary,
     }
     for name, df in main_sources.items():
         path = dirs.source_data / f"{name}.csv"
@@ -1521,13 +1521,13 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         files[name] = str(path)
 
     fig4_all = combine_source_data({
-        "Figure_4_panel_a": counts,
-        "Figure_4_panel_b": support_summary,
-        "Figure_4_panel_c": final_summary,
+        "Figure_3_panel_a": counts,
+        "Figure_3_panel_b": support_summary,
+        "Figure_3_panel_c": final_summary,
     })
-    path = dirs.source_data / "Figure_4_source_data_all_panels.csv"
+    path = dirs.source_data / "Figure_3_source_data_all_panels.csv"
     write_csv(fig4_all, path)
-    files["Figure_4_source_data_all_panels"] = str(path)
+    files["Figure_3_source_data_all_panels"] = str(path)
 
     supp_sources = {
         "Supplementary_Figure_S13_panel_a_source_data": stability_long,
@@ -1560,11 +1560,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         write_csv(df, path)
         files[name] = str(path)
 
-    fig4_base = dirs.main_figure / "Figure_4_prioritization_redesigned"
-    plot_figure4(counts, support_summary, final_summary, fig4_base, args)
-    files["Figure_4_png"] = str(fig4_base.with_suffix(".png"))
-    files["Figure_4_pdf"] = str(fig4_base.with_suffix(".pdf"))
-    files["Figure_4_tiff"] = str(fig4_base.with_suffix(".tiff"))
+    fig4_base = dirs.main_figure / "Figure_3_prioritization_redesigned"
+    plot_figure3(counts, support_summary, final_summary, fig4_base, args)
+    files["Figure_3_png"] = str(fig4_base.with_suffix(".png"))
+    files["Figure_3_pdf"] = str(fig4_base.with_suffix(".pdf"))
+    files["Figure_3_tiff"] = str(fig4_base.with_suffix(".tiff"))
 
     s13_base = dirs.supplementary_figures / "Supplementary_Figure_S13_prioritization_robustness_redesigned"
     plot_s13(stability_mat, recurrence_counts, s13_base, args)
